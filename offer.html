@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>奉納 | 404夏祭り</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="offer-body">
+
+  <!-- 背景 -->
+  <div class="offer-bg"></div>
+
+  <!-- 奉納UI -->
+  <div class="offer-container">
+
+    <h1>奉納記録</h1>
+
+    <p class="offer-text">
+      あなたの置き忘れた記憶を選択してください
+    </p>
+
+    <!-- 選択1 -->
+    <select id="memory1">
+
+      <option>あの日の</option>
+      <option>最後の</option>
+      <option>夏の</option>
+      <option>見つからない</option>
+      <option>まだ帰れない</option>
+      <option>遠い</option>
+      <option>名前のない</option>
+      <option>誰にも言えない</option>
+      <option>接続不能の</option>
+      <option>404番線の</option>
+      <option>圏外の</option>
+      <option>ノイズ混じりの</option>
+
+    </select>
+
+    <!-- 選択2 -->
+    <select id="memory2">
+
+      <option>夏祭り</option>
+      <option>花火</option>
+      <option>ラムネ</option>
+      <option>夕暮れ</option>
+      <option>鳥居</option>
+      <option>灯籠</option>
+      <option>河川敷</option>
+      <option>蝉時雨</option>
+      <option>祭り囃子</option>
+      <option>帰り道</option>
+      <option>夜店</option>
+      <option>打ち上げ跡</option>
+
+    </select>
+
+    <!-- 奉納ボタン -->
+    <button id="offer-button">
+      ▶ 奉納する
+    </button>
+
+    <!-- メッセージ -->
+    <p id="result-message"></p>
+
+  </div>
+
+  <!-- 奉納SE -->
+  <audio id="bell-sound">
+    <source src="images/bell.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
