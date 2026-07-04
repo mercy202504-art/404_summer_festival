@@ -74,8 +74,4 @@ setTimeout(() => {
   if (loading) {
     loading.style.display = "none";
   }
-<<<<<<< HEAD
 }, 3000);
-=======
-}, 3000);
->>>>>>> be57ba17a37484dcfbdf50ee071646b968e40406
