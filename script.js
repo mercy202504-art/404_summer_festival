@@ -68,3 +68,10 @@ if (offerButton) {
 
 }
 
+// 念のため、必ずローディングを消す
+setTimeout(() => {
+  const loading = document.getElementById("loading-screen");
+  if (loading) {
+    loading.style.display = "none";
+  }
+}, 3000);
