@@ -118,5 +118,6 @@ body{
   top:72% !important;
   width:12% !important;
   height:8% !important;
-  background:rgba(255,255,0,.35) !important;
+  background: transparent;
+border: none;
 }
