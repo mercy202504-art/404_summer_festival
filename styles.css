@@ -86,36 +86,36 @@ body{
 }
 
 .offer{
-  left:14%;
-  top:85%;
-  width:17%;
-  height:6%;
+  left: 8%;
+  top:86%;
+  width:24%;
+  height:8%;
 }
 
 .archive{
-  left:39%;
-  top:85%;
-  width:17%;
-  height:6%;
+  left:38%;
+  top:86%;
+  width:24%;
+  height:8%;
 }
 
 .logs{
-  left:64%;
-  top:85%;
-  width:17%;
-  height:6%;
+  left:68%;
+  top:86%;
+  width:24%;
+  height:8%;
 }
 
 .secret404{
-  left:47%;
-  top:75%;
-  width:6%;
-  height:4%;
+  left:40%;
+  top:34%;
+  width:20%;
+  height:10%;
 }
 
 .omikuji{
-  left:40%;
-  top:31%;
-  width:20%;
-  height:10%;
+  left42;
+  top:73%;
+  width:16%;
+  height:8%;
 }
