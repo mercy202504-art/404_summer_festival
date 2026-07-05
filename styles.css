@@ -1,225 +1,313 @@
-body {
+/* =========================
+   全体
+========================= */
+
+* {
   margin: 0;
   padding: 0;
-  background: black;
-  overflow-x: hidden;
-  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
-/* TOP */
-
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-  margin: auto;
+body {
+  background: #000;
+  overflow: hidden;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+  color: white;
 }
 
-/* 動画 */
-.bg-video {
-  width: 100%;
-  display: block;
+/* =========================
+   ロード画面
+========================= */
 
-  filter:
-    brightness(0.9)
-    contrast(1.1)
-    saturate(1.1);
-}
-
-/* 接続画面 */
 #loading-screen {
   position: fixed;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-
-  background: black;
+  inset: 0;
+  background: #000;
+  z-index: 9999;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
 
-  z-index: 9999;
-
-  color: white;
+.loading-text {
+  text-align: center;
+  margin-bottom: 20px;
   letter-spacing: 2px;
 }
 
-/* テキスト */
 .loading-text p {
-  margin: 10px 0;
-  opacity: 0.8;
-
-  animation: flicker 2s infinite;
+  margin: 8px 0;
 }
 
-/* 点滅 */
-@keyframes flicker {
-  0% { opacity: 0.5; }
-  50% { opacity: 1; }
-  100% { opacity: 0.5; }
-}
-
-/* ロードバー */
 .loading-bar {
-  width: 220px;
-  height: 2px;
+  width: 260px;
+  height: 8px;
 
-  background: rgba(255,255,255,0.2);
-
-  margin-top: 30px;
-
-  overflow: hidden;
+  border: 1px solid #66ccff;
 }
 
-/* バー */
 .loading-progress {
-  width: 0%;
   height: 100%;
+  width: 100%;
 
-  background: white;
+  background: #66ccff;
 
-  animation: loading 2.5s forwards;
+  animation: loading 2.5s linear;
 }
 
-/* バー進行 */
 @keyframes loading {
-  from { width: 0%; }
-  to { width: 100%; }
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
 }
 
-/* 透明ボタン */
-.hotspot {
-  position: absolute;
-  display: block;
-}
+/* =========================
+   メイン
+========================= */
 
-/* 奉納する */
-.offer {
-  left: 33%;
-  top: 73%;
-  width: 34%;
-  height: 7%;
-}
+.container {
+  position: relative;
 
-/* 記録庫 */
-.archive {
-  left: 3%;
-  top: 84%;
-  width: 29%;
-  height: 8%;
-}
-
-/* 接続記録 */
-.logs {
-  left: 36%;
-  top: 84%;
-  width: 29%;
-  height: 8%;
-}
-
-/* 奉納ページ */
-
-.offer-body {
-  background: black;
-  color: white;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
-
-  overflow: hidden;
 }
 
-/* 背景 */
-.offer-bg {
-  position: fixed;
-  inset: 0;
+/* 動画フレーム */
 
-  background:
-    radial-gradient(circle at center,
-    rgba(80,80,120,0.3),
-    black);
+.video-frame {
+  position: relative;
 
-  filter: blur(10px);
+  width: 420px;
+  height: 747px;
 
-  z-index: -1;
+  max-height: 100vh;
 }
 
-/* 中央UI */
-.offer-container {
-  width: 90%;
-  max-width: 400px;
+/* 背景動画 */
+
+.bg-video {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  display: block;
+}
+
+/* =========================
+   カウンター
+========================= */
+
+.memory-counter {
+  position: absolute;
+
+  top: 14px;
+  right: 14px;
+
+  width: 84px;
+
+  text-decoration: none;
+  color: #b8eeff;
+
+  border: 1px solid rgba(150, 220, 255, 0.25);
+  background: rgba(0, 20, 40, 0.65);
+
+  padding: 4px;
 
   text-align: center;
+
+  font-family: monospace;
 }
 
-/* タイトル */
-.offer-container h1 {
-  letter-spacing: 4px;
-  margin-bottom: 20px;
-
-  opacity: 0.9;
+.memory-counter .label {
+  font-size: 9px;
 }
 
-/* 説明 */
-.offer-text {
-  opacity: 0.7;
-  margin-bottom: 30px;
+.memory-counter .count {
+  font-size: 22px;
+  letter-spacing: 3px;
+
+  text-shadow: 0 0 4px #7ddfff, 0 0 10px #7ddfff;
 }
 
-/* セレクト */
-select {
+/* =========================
+   共通透明リンク
+========================= */
+
+.hotspot {
+  position: absolute;
+  z-index: 50;
+
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+/* =========================
+   奉納
+========================= */
+
+.offer {
+  left: 14%;
+  top: 85%;
+
+  width: 17%;
+  height: 6%;
+
+  background: rgba(255, 0, 0, 0.35);
+}
+
+/* =========================
+   記録庫
+========================= */
+
+.archive {
+  left: 39%;
+  top: 85%;
+
+  width: 17%;
+  height: 6%;
+
+  background: rgba(0, 255, 0, 0.35);
+}
+
+/* =========================
+   接続記録
+========================= */
+
+.logs {
+  left: 64%;
+  top: 85%;
+
+  width: 17%;
+  height: 6%;
+
+  background: rgba(0, 0, 255, 0.35);
+}
+
+/* =========================
+   404秘密ページ
+========================= */
+
+.secret404 {
+  left: 47%;
+  top: 75%;
+
+  width: 6%;
+  height: 4%;
+
+  background: rgba(255, 255, 0, 0.5);
+}
+
+/* =========================
+   鳥居おみくじ
+========================= */
+
+.omikuji {
+  left: 40%;
+  top: 28%;
+
+  width: 20%;
+  height: 10%;
+
+  background: rgba(255, 0, 255, 0.35);
+}
+
+/* =========================
+   奉納ページ
+========================= */
+
+.offer-page {
+  min-height: 100vh;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+
+  padding: 30px;
+}
+
+.offer-box {
+  max-width: 600px;
+  margin: auto;
+
+  background: rgba(20, 20, 30, 0.85);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  padding: 30px;
+
+  border-radius: 12px;
+}
+
+.offer-box h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.offer-box input,
+.offer-box textarea {
   width: 100%;
 
   margin-bottom: 15px;
-  padding: 14px;
 
-  background: rgba(255,255,255,0.08);
+  padding: 12px;
 
-  border: 1px solid rgba(255,255,255,0.2);
-
+  background: #111;
   color: white;
 
-  font-size: 16px;
+  border: 1px solid #444;
 }
 
-/* ボタン */
-#offer-button {
+.offer-box button {
   width: 100%;
+  padding: 12px;
 
-  padding: 16px;
+  background: #223344;
+  color: white;
+
+  border: none;
+  cursor: pointer;
+}
+
+/* =========================
+   戻るボタン
+========================= */
+
+.back-button {
+  display: inline-block;
+
   margin-top: 20px;
 
-  background: rgba(255,255,255,0.08);
+  color: #9fdfff;
 
-  border: 1px solid rgba(255,255,255,0.3);
+  text-decoration: none;
 
-  color: white;
+  border: 1px solid rgba(159, 223, 255, 0.4);
 
-  font-size: 16px;
-  letter-spacing: 2px;
+  padding: 10px 16px;
 
-  cursor: pointer;
-
-  transition: 0.3s;
+  border-radius: 8px;
 }
 
-/* hover */
-#offer-button:hover {
-  background: rgba(255,255,255,0.2);
+.back-button:hover {
+  background: rgba(159, 223, 255, 0.1);
 }
 
-/* メッセージ */
-#result-message {
-  margin-top: 30px;
+.memory-counter .label{
+  font-size:9px;
+  letter-spacing:1px;
+}
 
-  opacity: 0.8;
-  min-height: 30px;
-
-  letter-spacing: 2px;
+.memory-counter .count{
+  font-size:22px;
+  letter-spacing:3px;
+  text-shadow:
+    0 0 4px #7ddfff,
+    0 0 10px #7ddfff;
 }
