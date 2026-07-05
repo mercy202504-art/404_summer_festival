@@ -1,302 +1,68 @@
-/* =========================
-   全体
-========================= */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-body {
-  background: #000;
-  overflow: hidden;
-  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
-  color: white;
+body{
+  background:#000;
+  overflow:hidden;
+  color:white;
+  font-family:sans-serif;
 }
 
-/* =========================
-   ロード画面
-========================= */
-
-#loading-screen {
-  position: fixed;
-  inset: 0;
-  background: #000;
-  z-index: 9999;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+#loading-screen{
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  background:#000;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
 }
 
-.loading-text {
-  text-align: center;
-  margin-bottom: 20px;
-  letter-spacing: 2px;
+#loading-screen[style*="none"]{
+  display:none !important;
 }
 
-.loading-text p {
-  margin: 8px 0;
+.container{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#000;
 }
 
-.loading-bar {
-  width: 260px;
-  height: 8px;
-
-  border: 1px solid #66ccff;
+.video-frame{
+  position:relative;
+  height:100vh;
+  aspect-ratio:9 / 16;
+  max-width:100vw;
+  overflow:hidden;
 }
 
-.loading-progress {
-  height: 100%;
-  width: 100%;
-
-  background: #66ccff;
-
-  animation: loading 2.5s linear;
+.bg-video{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
 }
 
-@keyframes loading {
-  from {
-    width: 0%;
-  }
-
-  to {
-    width: 100%;
-  }
-}
-
-/* =========================
-   メイン
-========================= */
-
-.container {
-  position: relative;
-
-  width: 100vw;
-  height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* 動画フレーム */
-
-.video-frame {
-  position: relative;
-
-  width: 420px;
-  height: 747px;
-
-  max-height: 100vh;
-}
-
-/* 背景動画 */
-
-.bg-video {
-  width: 100%;
-  height: 100%;
-
-  object-fit: cover;
-  display: block;
-}
-
-/* =========================
-   カウンター
-========================= */
-
-.memory-counter {
-  position: absolute;
-
-  top: 14px;
-  right: 14px;
-
-  width: 84px;
-
-  text-decoration: none;
-  color: #b8eeff;
-
-  border: 1px solid rgba(150, 220, 255, 0.25);
-  background: rgba(0, 20, 40, 0.65);
-
-  padding: 4px;
-
-  text-align: center;
-
-  font-family: monospace;
-}
-
-.memory-counter .label {
-  font-size: 9px;
-}
-
-.memory-counter .count {
-  font-size: 22px;
-  letter-spacing: 3px;
-
-  text-shadow: 0 0 4px #7ddfff, 0 0 10px #7ddfff;
-}
-
-/* =========================
-   共通透明リンク
-========================= */
-
-.hotspot {
-  position: absolute;
-  z-index: 50;
-
-  border: 2px solid rgba(255, 255, 255, 0.6);
-}
-
-/* =========================
-   奉納
-========================= */
-
-.offer {
-  left: 14%;
-  top: 85%;
-
-  width: 17%;
-  height: 6%;
-
-  background: rgba(255, 0, 0, 0.35);
-}
-
-/* =========================
-   記録庫
-========================= */
-
-.archive {
-  left: 39%;
-  top: 85%;
-
-  width: 17%;
-  height: 6%;
-
-  background: rgba(0, 255, 0, 0.35);
-}
-
-/* =========================
-   接続記録
-========================= */
-
-.logs {
-  left: 64%;
-  top: 85%;
-
-  width: 17%;
-  height: 6%;
-
-  background: rgba(0, 0, 255, 0.35);
-}
-
-/* =========================
-   404秘密ページ
-========================= */
-
-.secret404 {
-  left: 47%;
-  top: 75%;
-
-  width: 6%;
-  height: 4%;
-
-  background: rgba(255, 255, 0, 0.5);
-}
-
-/* =========================
-   鳥居おみくじ
-========================= */
-
-.omikuji {
-  left: 40%;
-  top: 28%;
-
-  width: 20%;
-  height: 10%;
-
-  background: rgba(255, 0, 255, 0.35);
-}
-
-/* =========================
-   奉納ページ
-========================= */
-
-.offer-page {
-  min-height: 100vh;
-
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
-
-  padding: 30px;
-}
-
-.offer-box {
-  max-width: 600px;
-  margin: auto;
-
-  background: rgba(20, 20, 30, 0.85);
-
-  border: 1px solid rgba(255, 255, 255, 0.15);
-
-  padding: 30px;
-
-  border-radius: 12px;
-}
-
-.offer-box h1 {
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.offer-box input,
-.offer-box textarea {
-  width: 100%;
-
-  margin-bottom: 15px;
-
-  padding: 12px;
-
-  background: #111;
-  color: white;
-
-  border: 1px solid #444;
-}
-
-.offer-box button {
-  width: 100%;
-  padding: 12px;
-
-  background: #223344;
-  color: white;
-
-  border: none;
-  cursor: pointer;
-}
-
-/* =========================
-   戻るボタン
-========================= */
-
-.back-button {
-  display: inline-block;
-
-  margin-top: 20px;
-
-  color: #9fdfff;
-
-  text-decoration: none;
-
-  border: 1px solid rgba(159, 223, 255, 0.4);
-
-  padding: 10px 16px;
-
-  border-radius: 8px;
-}
-
-.back-button:hover {
-  background: rgba(159, 223, 255, 0.1);
+.memory-counter{
+  position:absolute;
+  top:14px;
+  right:14px;
+  z-index:50;
+  width:88px;
+  padding:5px;
+  text-align:center;
+  text-decoration:none;
+  color:#bfeeff;
+  background:rgba(0,20,40,.65);
+  border:1px solid rgba(160,220,255,.35);
+  font-family:monospace;
 }
 
 .memory-counter .label{
@@ -305,9 +71,51 @@ body {
 }
 
 .memory-counter .count{
-  font-size:22px;
+  font-size:21px;
   letter-spacing:3px;
-  text-shadow:
-    0 0 4px #7ddfff,
-    0 0 10px #7ddfff;
+  text-shadow:0 0 6px #7ddfff;
+}
+
+.hotspot{
+  position:absolute;
+  z-index:60;
+  display:block;
+  text-decoration:none;
+  border:none;
+  background:transparent;
+}
+
+.offer{
+  left:14%;
+  top:85%;
+  width:17%;
+  height:6%;
+}
+
+.archive{
+  left:39%;
+  top:85%;
+  width:17%;
+  height:6%;
+}
+
+.logs{
+  left:64%;
+  top:85%;
+  width:17%;
+  height:6%;
+}
+
+.secret404{
+  left:47%;
+  top:75%;
+  width:6%;
+  height:4%;
+}
+
+.omikuji{
+  left:40%;
+  top:31%;
+  width:20%;
+  height:10%;
 }
