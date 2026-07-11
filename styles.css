@@ -348,3 +348,17 @@ border: none;
     font-size: 14px;
   }
 }
+/*=========================
+  Offer Page
+=========================*/
+
+.offer-body{
+    overflow-y:auto;
+    overflow-x:hidden;
+    min-height:100vh;
+    padding:24px 12px 60px;
+}
+
+.offer-container{
+    min-height:100vh;
+}
