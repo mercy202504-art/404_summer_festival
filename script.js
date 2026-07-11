@@ -35,13 +35,26 @@ if (offerButton) {
       return;
     }
 
-    result.innerText = "記録しています…";
+    const scanOverlay = document.getElementById("scan-overlay");
+const scanMessage = document.getElementById("scan-message");
+
+if (scanOverlay) {
+  scanOverlay.classList.add("scan-overlay-show");
+  scanOverlay.setAttribute("aria-hidden", "false");
+}
+
+if (scanMessage) {
+  scanMessage.innerText = "記憶を照合しています…";
+}
 
 setTimeout(() => {
   if (bell) {
     bell.volume = 0.6;
     bell.play().catch(() => {});
   }
+if (scanMessage) {
+  scanMessage.innerText = "観測記録を受理しました";
+}
 
   const cardBox = document.getElementById("memory-card");
   const image = document.getElementById("memory-image");
@@ -74,6 +87,19 @@ setTimeout(() => {
       cardBox.classList.add("memory-card-show");
     });
   }
+setTimeout(() => {
+  if (scanOverlay) {
+    scanOverlay.classList.remove("scan-overlay-show");
+    scanOverlay.setAttribute("aria-hidden", "true");
+  }
+
+  if (cardBox) {
+    cardBox.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  }
+}, 700);
 
   if (image) {
     image.src = card.image;

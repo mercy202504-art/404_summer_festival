@@ -707,3 +707,118 @@ border: none;
     transition: none;
   }
 }
+
+/* ==================================================
+   奉納スキャン演出
+================================================== */
+
+.scan-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+
+  display: grid;
+  place-items: center;
+
+  padding: 20px;
+
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(30, 91, 133, 0.22),
+      rgba(0, 3, 8, 0.9) 58%
+    );
+
+  backdrop-filter: blur(8px);
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition:
+    opacity 0.35s ease,
+    visibility 0.35s ease;
+}
+
+.scan-overlay.scan-overlay-show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.scan-panel {
+  position: relative;
+
+  width: min(88vw, 360px);
+  padding: 34px 26px 30px;
+
+  text-align: center;
+
+  border:
+    1px solid rgba(131, 220, 255, 0.42);
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(6, 20, 36, 0.96),
+      rgba(2, 8, 17, 0.98)
+    );
+
+  box-shadow:
+    0 24px 80px rgba(0, 0, 0, 0.55),
+    0 0 40px rgba(68, 181, 240, 0.14);
+
+  overflow: hidden;
+}
+
+.scan-code {
+  margin: 0 0 18px;
+
+  font-family: monospace;
+  font-size: 10px;
+  letter-spacing: 3px;
+
+  color: rgba(151, 221, 255, 0.62);
+}
+
+#scan-message {
+  margin: 0;
+
+  font-size: 15px;
+  letter-spacing: 0.08em;
+
+  color: rgba(235, 248, 255, 0.92);
+}
+
+.scan-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -20%;
+
+  height: 2px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(135, 229, 255, 0.95),
+      transparent
+    );
+
+  box-shadow:
+    0 0 18px rgba(111, 217, 255, 0.9);
+
+  animation: memory-scan 1.4s linear infinite;
+}
+
+@keyframes memory-scan {
+  from {
+    top: -10%;
+  }
+
+  to {
+    top: 110%;
+  }
+}
