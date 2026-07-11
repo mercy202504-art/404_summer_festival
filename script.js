@@ -37,35 +37,75 @@ if (offerButton) {
 
     result.innerText = "記録しています…";
 
-    setTimeout(() => {
-      if (bell) {
-        bell.volume = 0.6;
-        bell.play().catch(() => {});
-      }
+setTimeout(() => {
+  if (bell) {
+    bell.volume = 0.6;
+    bell.play().catch(() => {});
+  }
 
-      const cardBox = document.getElementById("memory-card");
-      const image = document.getElementById("memory-image");
-      const title = document.getElementById("memory-title");
-      const poem = document.getElementById("memory-poem");
+  const cardBox = document.getElementById("memory-card");
+  const image = document.getElementById("memory-image");
+  const title = document.getElementById("memory-title");
+  const poem = document.getElementById("memory-poem");
+  const number = document.getElementById("memory-number");
+  const date = document.getElementById("memory-date");
+  const progress = document.getElementById("memory-progress");
 
-      if (cardBox) {
-        cardBox.style.display = "block";
-      }
+  // 取得済み記録を読み込む
+  const saved =
+    JSON.parse(localStorage.getItem("observedMemories")) || [];
 
-      if (image) {
-        image.src = card.image;
-        image.alt = card.title;
-      }
+  // 初取得のときだけ追加
+  if (!saved.includes(card.no)) {
+    saved.push(card.no);
+    localStorage.setItem(
+      "observedMemories",
+      JSON.stringify(saved)
+    );
+  }
 
-      if (title) {
-        title.innerText = `Memory No.${card.no}　${card.title}`;
-      }
+  const observedDate = new Date().toLocaleDateString("ja-JP");
 
-      if (poem) {
-        poem.innerText = card.poem;
-      }
+  if (cardBox) {
+    cardBox.style.display = "block";
+    cardBox.classList.remove("memory-card-show");
 
-      result.innerText = "";
-    }, 2000);
+    requestAnimationFrame(() => {
+      cardBox.classList.add("memory-card-show");
+    });
+  }
+
+  if (image) {
+    image.src = card.image;
+    image.alt = card.title;
+
+    image.onerror = () => {
+      image.style.display = "none";
+      image.parentElement.classList.add("image-missing");
+    };
+  }
+
+  if (number) {
+    number.innerText = `NO.${card.no}`;
+  }
+
+  if (title) {
+    title.innerText = card.title;
+  }
+
+  if (poem) {
+    poem.innerText = card.poem;
+  }
+
+  if (date) {
+    date.innerText = observedDate;
+  }
+
+  if (progress) {
+    progress.innerText = `${saved.length} / 144`;
+  }
+
+  result.innerText = "";
+}, 2000);
   });
 }

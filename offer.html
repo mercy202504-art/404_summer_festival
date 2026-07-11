@@ -65,11 +65,35 @@
 
 <div id="memory-card" class="memory-card" style="display:none;">
 
+  <div class="memory-card-header">
+    <span class="memory-card-label">404 OBSERVATION LOG</span>
+    <span id="memory-number" class="memory-number"></span>
+  </div>
+
+  <div class="memory-image-frame">
     <img id="memory-image" src="" alt="">
+    <div class="memory-image-noise"></div>
+  </div>
+
+  <div class="memory-card-body">
+    <p class="memory-status">観測記録を受理しました</p>
 
     <h2 id="memory-title"></h2>
 
     <p id="memory-poem"></p>
+
+    <div class="memory-meta">
+      <div>
+        <span class="meta-label">OBSERVED</span>
+        <span id="memory-date"></span>
+      </div>
+
+      <div>
+        <span class="meta-label">ARCHIVE</span>
+        <span id="memory-progress"></span>
+      </div>
+    </div>
+  </div>
 
 </div>
 
