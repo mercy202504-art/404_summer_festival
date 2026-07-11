@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>奉納 | 404夏祭り</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css?v=40">
 </head>
 
 <body class="offer-body">
@@ -63,17 +63,24 @@
       ▶ 奉納する
     </button>
 
-    <!-- メッセージ -->
-    <p id="result-message"></p>
+<div id="memory-card" class="memory-card" style="display:none;">
 
-  </div>
+    <img id="memory-image" src="" alt="">
+
+    <h2 id="memory-title"></h2>
+
+    <p id="memory-poem"></p>
+
+</div>
+
+<p id="result-message"></p>
 
   <!-- 奉納SE -->
   <audio id="bell-sound">
     <source src="images/bell.mp3" type="audio/mpeg">
   </audio>
 
-<script src="memory-data.js"></script>
-<script src="script.js?v=31"></script>
+<script src="memory-data.js?v=40"></script>
+<script src="script.js?v=40"></script>
 </body>
 </html>
