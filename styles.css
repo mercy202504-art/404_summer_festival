@@ -362,3 +362,348 @@ border: none;
 .offer-container{
     min-height:100vh;
 }
+
+/* ==================================================
+   404奉納ページ・最終UI
+================================================== */
+
+.offer-body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 36px 16px 80px;
+
+  color: #eaf7ff;
+
+  background:
+    radial-gradient(
+      circle at 50% 18%,
+      rgba(45, 104, 150, 0.18),
+      transparent 36%
+    ),
+    radial-gradient(
+      circle at 20% 70%,
+      rgba(112, 65, 145, 0.09),
+      transparent 38%
+    ),
+    linear-gradient(
+      180deg,
+      #020710 0%,
+      #000308 55%,
+      #000 100%
+    );
+
+  font-family:
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic",
+    sans-serif;
+}
+
+/* 背景の薄い走査線 */
+.offer-body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  opacity: 0.13;
+
+  background:
+    repeating-linear-gradient(
+      0deg,
+      transparent 0,
+      transparent 3px,
+      rgba(150, 220, 255, 0.035) 4px
+    );
+}
+
+/* 背景の青白い光 */
+.offer-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      circle at 50% 25%,
+      rgba(70, 180, 255, 0.08),
+      transparent 38%
+    );
+}
+
+/* ページ本体 */
+.offer-container {
+  position: relative;
+  z-index: 1;
+
+  width: min(100%, 720px);
+  margin: 0 auto;
+  min-height: 100vh;
+
+  text-align: center;
+}
+
+/* ページタイトル */
+.offer-container > h1 {
+  margin: 0 0 10px;
+
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+
+  color: #f0faff;
+
+  text-shadow:
+    0 0 12px rgba(121, 220, 255, 0.28),
+    0 0 35px rgba(68, 149, 220, 0.14);
+}
+
+/* タイトル上の小さな装飾 */
+.offer-container > h1::before {
+  content: "404 MEMORY OFFERING";
+  display: block;
+
+  margin-bottom: 9px;
+
+  font-family: monospace;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 3px;
+
+  color: rgba(147, 213, 249, 0.52);
+}
+
+/* 説明文 */
+.offer-text {
+  margin: 0 auto 26px;
+
+  font-size: 14px;
+  line-height: 1.9;
+  letter-spacing: 0.05em;
+
+  color: rgba(217, 237, 248, 0.72);
+}
+
+/* 選択エリアをひとまとまりに見せる */
+#memory1,
+#memory2 {
+  width: min(100%, 220px);
+  height: 48px;
+
+  margin: 5px 4px;
+  padding: 0 40px 0 14px;
+
+  color: #eaf8ff;
+  font-size: 14px;
+
+  border:
+    1px solid rgba(126, 214, 255, 0.3);
+  border-radius: 10px;
+
+  background-color: rgba(7, 20, 35, 0.92);
+
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.025) inset,
+    0 8px 26px rgba(0, 0, 0, 0.25);
+
+  cursor: pointer;
+  outline: none;
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+#memory1:hover,
+#memory2:hover,
+#memory1:focus,
+#memory2:focus {
+  border-color: rgba(133, 224, 255, 0.68);
+
+  box-shadow:
+    0 0 0 3px rgba(80, 184, 240, 0.08),
+    0 0 22px rgba(71, 178, 237, 0.12);
+}
+
+/* プルダウンの選択肢 */
+#memory1 option,
+#memory2 option {
+  color: #eaf8ff;
+  background: #071322;
+}
+
+/* 奉納ボタン */
+#offer-button {
+  height: 48px;
+
+  margin: 5px 4px;
+  padding: 0 24px;
+
+  color: #effaff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+
+  border:
+    1px solid rgba(143, 224, 255, 0.48);
+  border-radius: 10px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(21, 72, 108, 0.9),
+      rgba(37, 49, 96, 0.92)
+    );
+
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.32),
+    0 0 18px rgba(80, 183, 240, 0.1),
+    0 0 0 1px rgba(255,255,255,0.04) inset;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+#offer-button::before {
+  content: "▶";
+  margin-right: 8px;
+
+  font-size: 10px;
+  color: #9ee7ff;
+}
+
+#offer-button:hover {
+  transform: translateY(-2px);
+
+  border-color: rgba(163, 235, 255, 0.84);
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.38),
+    0 0 28px rgba(87, 195, 255, 0.2);
+}
+
+#offer-button:active {
+  transform: translateY(0);
+}
+
+/* 記録中メッセージ */
+#result-message {
+  min-height: 26px;
+  margin: 17px 0 0;
+
+  font-family: monospace;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+
+  color: rgba(158, 222, 255, 0.72);
+}
+
+/* 観測カードの位置を少し整える */
+.memory-card {
+  margin-top: 34px;
+}
+
+/* 画像は縦長作品向け */
+.memory-image-frame {
+  aspect-ratio: 9 / 13;
+  max-height: 620px;
+}
+
+/* 未生成時の背景を少し印象的に */
+.memory-image-frame.image-missing {
+  background:
+    radial-gradient(
+      circle at 50% 45%,
+      rgba(76, 134, 184, 0.16),
+      transparent 38%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(10, 27, 47, 0.96),
+      rgba(3, 10, 20, 0.98)
+    );
+}
+
+/* カードの最終行 */
+.memory-meta {
+  text-align: left;
+}
+
+/* スクロールバー */
+.offer-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.offer-body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.offer-body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(104, 190, 235, 0.28);
+}
+
+.offer-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(104, 190, 235, 0.46);
+}
+
+/* ==================================================
+   スマホ
+================================================== */
+
+@media (max-width: 600px) {
+  .offer-body {
+    padding: 25px 14px 65px;
+  }
+
+  .offer-container > h1 {
+    font-size: 29px;
+  }
+
+  .offer-text {
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+
+  #memory1,
+  #memory2,
+  #offer-button {
+    display: block;
+
+    width: 100%;
+    max-width: 430px;
+
+    margin: 9px auto;
+  }
+
+  #offer-button {
+    margin-top: 14px;
+  }
+
+  .memory-card {
+    width: 100%;
+    margin-top: 28px;
+  }
+
+  .memory-image-frame {
+    aspect-ratio: 9 / 13;
+    max-height: none;
+  }
+}
+
+/* 少し動きを抑えたい端末への配慮 */
+@media (prefers-reduced-motion: reduce) {
+  .memory-card,
+  #offer-button,
+  #memory1,
+  #memory2 {
+    transition: none;
+  }
+}
