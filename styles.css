@@ -1157,3 +1157,47 @@ border: none;
 .archive-body.modal-open {
   overflow: hidden !important;
 }
+
+/* =======================================
+   PC版 記録庫スクロール強制修正
+======================================= */
+
+html {
+  min-height: 100%;
+  height: auto !important;
+  overflow-y: auto !important;
+}
+
+body.archive-body {
+  width: 100%;
+  min-height: 100vh;
+  height: auto !important;
+  overflow-x: hidden !important;
+  overflow-y: visible !important;
+  position: static !important;
+  display: block !important;
+}
+
+.archive-container {
+  width: min(1200px, 95%);
+  min-height: 100vh;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.archive-grid {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.archive-bg {
+  position: fixed;
+  pointer-events: none;
+}
+
+/* PCで固定背景は維持しつつ、ページスクロールを妨げない */
+.archive-bg {
+  position: fixed;
+  pointer-events: none;
+}
