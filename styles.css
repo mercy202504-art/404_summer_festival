@@ -1104,28 +1104,30 @@ border: none;
 .back-button{
     display:block;
     width:fit-content;
-    margin:32px auto;
+    margin:40px auto 20px;
 
-    padding:10px 16px;
+    padding:12px 22px;
 
-    color:rgba(190,230,255,.82);
+    color:#bfe8ff;
     text-decoration:none;
-    font-size:13px;
-    letter-spacing:.05em;
+    font-size:14px;
+    letter-spacing:.08em;
 
-    border:1px solid rgba(130,210,255,.22);
-    border-radius:10px;
-    background:rgba(5,18,30,.5);
+    border:1px solid rgba(120,210,255,.35);
+    border-radius:14px;
 
-    transition:
-        border-color .25s ease,
-        color .25s ease,
-        transform .25s ease;
+    background:rgba(8,18,35,.75);
+    backdrop-filter:blur(8px);
+
+    transition:.25s;
 }
+
 .back-button:hover{
-  color:#fff;
-  border-color:rgba(150,225,255,.58);
-  transform:translateY(-2px);
+    color:#fff;
+    border-color:rgba(180,235,255,.7);
+    background:rgba(18,38,70,.9);
+    transform:translateY(-2px);
+    box-shadow:0 0 18px rgba(90,190,255,.25);
 }
 
 /* =======================================
