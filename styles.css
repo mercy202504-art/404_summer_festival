@@ -822,3 +822,281 @@ border: none;
     top: 110%;
   }
 }
+
+/* =======================================
+   ARCHIVE
+======================================= */
+
+.archive-body{
+    margin:0;
+    background:#05070c;
+    color:white;
+    font-family:sans-serif;
+}
+
+.archive-bg{
+
+    position:fixed;
+    inset:0;
+
+    background:
+    radial-gradient(circle at center,#162235,#05070c);
+
+    z-index:-1;
+
+}
+
+.archive-container{
+
+    width:min(1200px,95%);
+    margin:auto;
+    padding:50px 0 80px;
+
+}
+
+.archive-header{
+
+    text-align:center;
+    margin-bottom:40px;
+
+}
+
+.archive-system-label{
+
+    color:#8fc7ff;
+    letter-spacing:4px;
+    font-size:12px;
+
+}
+
+.archive-description{
+
+    opacity:.8;
+    line-height:1.8;
+
+}
+
+.archive-status{
+
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:30px;
+
+}
+
+.archive-status-item{
+
+    text-align:center;
+
+}
+
+.archive-status-label{
+
+    display:block;
+    font-size:11px;
+    opacity:.6;
+
+}
+
+.archive-progress-track{
+
+    width:min(500px,90%);
+    height:8px;
+
+    margin:25px auto;
+
+    background:#222;
+
+    border-radius:999px;
+
+    overflow:hidden;
+
+}
+
+.archive-progress-bar{
+
+    width:0%;
+    height:100%;
+
+    background:
+
+    linear-gradient(
+        90deg,
+        #5ec8ff,
+        #d9f6ff
+    );
+
+    transition:.6s;
+
+}
+
+.archive-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fill,minmax(170px,1fr));
+
+    gap:20px;
+
+}
+
+.archive-item{
+
+    cursor:pointer;
+
+    overflow:hidden;
+
+    border-radius:16px;
+
+    background:#101418;
+
+    transition:.25s;
+
+}
+
+.archive-item:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.archive-item img{
+
+    width:100%;
+    aspect-ratio:2/3;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+.archive-card-title{
+
+    padding:12px;
+
+    font-size:14px;
+
+}
+
+.locked{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    aspect-ratio:2/3;
+
+    background:#111;
+
+    border:1px solid #333;
+
+}
+
+.archive-unknown{
+
+    text-align:center;
+
+    opacity:.45;
+
+    padding:20px;
+
+}
+
+.question{
+
+    font-size:60px;
+
+    margin-bottom:10px;
+
+}
+
+.archive-modal{
+
+    position:fixed;
+
+    inset:0;
+
+    display:none;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(0,0,0,.75);
+
+    z-index:1000;
+
+}
+
+.archive-modal.show{
+
+    display:flex;
+
+}
+
+.archive-modal-card{
+
+    width:min(430px,92%);
+
+    background:#10151b;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.archive-modal-image-frame img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+.archive-modal-body{
+
+    padding:25px;
+
+}
+
+.archive-modal-number{
+
+    color:#77d3ff;
+
+}
+
+.archive-modal-rarity{
+
+    color:#ffc75f;
+
+    letter-spacing:2px;
+
+}
+
+.archive-modal-close{
+
+    position:absolute;
+
+    top:30px;
+
+    right:30px;
+
+    width:45px;
+
+    height:45px;
+
+    border:none;
+
+    border-radius:999px;
+
+    cursor:pointer;
+
+    font-size:22px;
+
+}

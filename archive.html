@@ -1,24 +1,160 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>記録庫</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+<head>
+  <meta charset="UTF-8">
 
-  <body class="offer-body">
-    <div class="offer-container">
-      <h1>記録庫</h1>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-      <p class="offer-text">流れ着いた記憶</p>
+  <title>観測記録庫｜404夏祭り</title>
 
-      <div class="record-card">#404001 夏の帰り道</div>
+  <link
+    rel="stylesheet"
+    href="styles.css?v=51"
+  >
+</head>
 
-      <div class="record-card">#404002 線香花火</div>
+<body class="archive-body">
 
-      <a href="index.html"> 戻る </a>
-      <a href="index.html" class="back-button"> ← 灯籠の流れる場所へ戻る </a>
+  <div class="archive-bg"></div>
+
+  <main class="archive-container">
+
+    <header class="archive-header">
+
+      <p class="archive-system-label">
+        404 MEMORY ARCHIVE
+      </p>
+
+      <h1>観測記録庫</h1>
+
+      <p class="archive-description">
+        あなたが観測した記憶の断片です。<br>
+        まだ見つかっていない記録は、名前を持ちません。
+      </p>
+
+      <div class="archive-status">
+
+        <div class="archive-status-item">
+          <span class="archive-status-label">
+            OBSERVED
+          </span>
+
+          <strong id="archive-count">
+            0 / 144
+          </strong>
+        </div>
+
+        <div class="archive-status-item">
+          <span class="archive-status-label">
+            COMPLETION
+          </span>
+
+          <strong id="archive-percent">
+            0.0%
+          </strong>
+        </div>
+
+      </div>
+
+      <div class="archive-progress-track">
+        <div
+          id="archive-progress-bar"
+          class="archive-progress-bar"
+        ></div>
+      </div>
+
+    </header>
+
+    <section
+      id="archive-grid"
+      class="archive-grid"
+      aria-label="観測記録一覧"
+    >
+      <!-- JavaScriptで144枚を生成 -->
+    </section>
+
+    <p
+      id="archive-empty"
+      class="archive-empty"
+      hidden
+    >
+      まだ観測された記憶はありません。
+    </p>
+
+    <nav class="archive-navigation">
+
+      <a
+        href="offer.html"
+        class="archive-link archive-link-primary"
+      >
+        記憶を奉納する
+      </a>
+
+      <a
+        href="index.html"
+        class="archive-link"
+      >
+        夏祭りへ戻る
+      </a>
+
+    </nav>
+
+  </main>
+
+  <div
+    id="archive-modal"
+    class="archive-modal"
+    aria-hidden="true"
+  >
+
+    <button
+      id="archive-modal-close"
+      class="archive-modal-close"
+      type="button"
+      aria-label="閉じる"
+    >
+      ×
+    </button>
+
+    <div class="archive-modal-card">
+
+      <p
+        id="archive-modal-number"
+        class="archive-modal-number"
+      ></p>
+
+      <div class="archive-modal-image-frame">
+
+        <img
+          id="archive-modal-image"
+          src=""
+          alt=""
+        >
+
+      </div>
+
+      <div class="archive-modal-body">
+
+        <p
+          id="archive-modal-rarity"
+          class="archive-modal-rarity"
+        ></p>
+
+        <h2 id="archive-modal-title"></h2>
+
+        <p id="archive-modal-poem"></p>
+
+      </div>
+
     </div>
-  </body>
+
+  </div>
+
+  <script src="memory-data.js?v=51"></script>
+  <script src="archive.js?v=51"></script>
+
+</body>
 </html>
