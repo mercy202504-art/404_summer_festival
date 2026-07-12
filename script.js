@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!festivalBgm) return;
 
-  festivalBgm.volume = 0.3;
+  festivalBgm.volume = 0.15;
 
   const savedTime =
     Number.parseFloat(
