@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         modal.classList.add("show");
         modal.setAttribute("aria-hidden", "false");
-        document.body.style.overflow = "hidden";
+        document.body.classList.add("modal-open");
       });
     } else {
       item.classList.add("locked");
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function closeModal() {
     modal.classList.remove("show");
     modal.setAttribute("aria-hidden", "true");
-    document.body.style.overflow = "";
+    document.body.classList.remove("modal-open");
   }
 
   closeButton.addEventListener("click", closeModal);
