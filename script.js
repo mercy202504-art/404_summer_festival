@@ -137,7 +137,7 @@ setTimeout(() => {
 }
 
 /* ==========================================
-   404夏祭り 共通BGM管理
+   404夏祭り 共通BGM管理・スマホ対応版
 ========================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -146,38 +146,54 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!festivalBgm) return;
 
+  const TIME_KEY = "festivalBgmTime";
+  const PLAYING_KEY = "festivalBgmPlaying";
+
   festivalBgm.volume = 0.15;
 
-  const savedTime =
-    Number.parseFloat(
-      sessionStorage.getItem("festivalBgmTime")
+  // 保存位置を復元
+  const restorePosition = () => {
+    const savedTime = Number.parseFloat(
+      localStorage.getItem(TIME_KEY)
     );
 
-  if (Number.isFinite(savedTime)) {
-    festivalBgm.currentTime = savedTime;
+    if (
+      Number.isFinite(savedTime) &&
+      savedTime >= 0 &&
+      festivalBgm.duration &&
+      savedTime < festivalBgm.duration
+    ) {
+      festivalBgm.currentTime = savedTime;
+    }
+  };
+
+  // 音源情報を読み込んでから位置を戻す
+  if (festivalBgm.readyState >= 1) {
+    restorePosition();
+  } else {
+    festivalBgm.addEventListener(
+      "loadedmetadata",
+      restorePosition,
+      { once: true }
+    );
   }
 
   const startBgm = () => {
     festivalBgm.play()
       .then(() => {
-        sessionStorage.setItem(
-          "festivalBgmPlaying",
-          "true"
-        );
+        localStorage.setItem(PLAYING_KEY, "true");
       })
-      .catch(() => {});
+      .catch(() => {
+        // 自動再生制限時は最初の操作を待つ
+      });
   };
 
-  // 前ページで再生中だった場合は再開を試す
-  if (
-    sessionStorage.getItem("festivalBgmPlaying")
-    === "true"
-  ) {
+  // 前ページで再生中なら続きから再開
+  if (localStorage.getItem(PLAYING_KEY) === "true") {
     startBgm();
   }
 
-  // 自動再生が止められた場合、
-  // 最初のクリック・タップで再生する
+  // スマホの自動再生制限対策
   const startOnUserAction = () => {
     startBgm();
 
@@ -204,26 +220,40 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   // 再生位置を保存
-  setInterval(() => {
-    if (!festivalBgm.paused) {
-      sessionStorage.setItem(
-        "festivalBgmTime",
+  const saveBgmState = () => {
+    if (Number.isFinite(festivalBgm.currentTime)) {
+      localStorage.setItem(
+        TIME_KEY,
         String(festivalBgm.currentTime)
       );
     }
-  }, 500);
 
-  festivalBgm.addEventListener("play", () => {
-    sessionStorage.setItem(
-      "festivalBgmPlaying",
-      "true"
-    );
-  });
+    if (!festivalBgm.paused) {
+      localStorage.setItem(PLAYING_KEY, "true");
+    }
+  };
 
-  festivalBgm.addEventListener("pause", () => {
-    sessionStorage.setItem(
-      "festivalBgmPlaying",
-      "false"
-    );
-  });
+  festivalBgm.addEventListener(
+    "timeupdate",
+    saveBgmState
+  );
+
+  // ページを離れる直前に必ず保存
+  window.addEventListener(
+    "pagehide",
+    saveBgmState
+  );
+
+  document.addEventListener(
+    "visibilitychange",
+    () => {
+      if (document.visibilityState === "hidden") {
+        saveBgmState();
+      }
+    }
+  );
+
+  // 念のため定期保存
+  setInterval(saveBgmState, 500);
 });
+
