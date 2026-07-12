@@ -979,7 +979,18 @@ border: none;
 
     font-size:14px;
 
+    color:#eaf7ff;
+
+    text-shadow:0 0 8px rgba(90,190,255,.25);
+
+    text-align:center;
+
 }
+
+.archive-card-number{
+    color:rgba(210,230,255,.8);
+}
+
 
 .locked{
 
@@ -1202,4 +1213,49 @@ body.archive-body {
 .archive-bg {
   position: fixed;
   pointer-events: none;
+}
+
+/* =====================================
+   RARE MEMORY
+===================================== */
+
+.archive-item.rare{
+
+    border:1px solid rgba(120,220,255,.45);
+
+    box-shadow:
+        0 0 10px rgba(80,180,255,.20),
+        0 0 28px rgba(80,180,255,.10);
+
+    animation:rareGlow 3.5s ease-in-out infinite;
+}
+
+.archive-item.rare:hover{
+
+    box-shadow:
+        0 0 16px rgba(120,220,255,.45),
+        0 0 40px rgba(120,220,255,.25);
+
+}
+
+@keyframes rareGlow{
+
+    0%{
+        box-shadow:
+            0 0 8px rgba(80,180,255,.15),
+            0 0 20px rgba(80,180,255,.08);
+    }
+
+    50%{
+        box-shadow:
+            0 0 18px rgba(120,220,255,.40),
+            0 0 42px rgba(120,220,255,.18);
+    }
+
+    100%{
+        box-shadow:
+            0 0 8px rgba(80,180,255,.15),
+            0 0 20px rgba(80,180,255,.08);
+    }
+
 }

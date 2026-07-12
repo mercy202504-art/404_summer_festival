@@ -54,6 +54,9 @@ document.addEventListener("DOMContentLoaded", () => {
       item.type = "button";
       item.classList.add("unlocked");
 
+    if(card.rarity === "RARE"){
+    item.classList.add("rare");
+}
       item.innerHTML = `
         <div class="archive-image-frame">
           <img
