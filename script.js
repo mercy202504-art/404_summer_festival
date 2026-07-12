@@ -135,3 +135,95 @@ setTimeout(() => {
 }, 2000);
   });
 }
+
+/* ==========================================
+   404夏祭り 共通BGM管理
+========================================== */
+
+document.addEventListener("DOMContentLoaded", () => {
+  const festivalBgm =
+    document.getElementById("festival-bgm");
+
+  if (!festivalBgm) return;
+
+  festivalBgm.volume = 0.3;
+
+  const savedTime =
+    Number.parseFloat(
+      sessionStorage.getItem("festivalBgmTime")
+    );
+
+  if (Number.isFinite(savedTime)) {
+    festivalBgm.currentTime = savedTime;
+  }
+
+  const startBgm = () => {
+    festivalBgm.play()
+      .then(() => {
+        sessionStorage.setItem(
+          "festivalBgmPlaying",
+          "true"
+        );
+      })
+      .catch(() => {});
+  };
+
+  // 前ページで再生中だった場合は再開を試す
+  if (
+    sessionStorage.getItem("festivalBgmPlaying")
+    === "true"
+  ) {
+    startBgm();
+  }
+
+  // 自動再生が止められた場合、
+  // 最初のクリック・タップで再生する
+  const startOnUserAction = () => {
+    startBgm();
+
+    document.removeEventListener(
+      "click",
+      startOnUserAction
+    );
+
+    document.removeEventListener(
+      "touchstart",
+      startOnUserAction
+    );
+  };
+
+  document.addEventListener(
+    "click",
+    startOnUserAction
+  );
+
+  document.addEventListener(
+    "touchstart",
+    startOnUserAction,
+    { passive: true }
+  );
+
+  // 再生位置を保存
+  setInterval(() => {
+    if (!festivalBgm.paused) {
+      sessionStorage.setItem(
+        "festivalBgmTime",
+        String(festivalBgm.currentTime)
+      );
+    }
+  }, 500);
+
+  festivalBgm.addEventListener("play", () => {
+    sessionStorage.setItem(
+      "festivalBgmPlaying",
+      "true"
+    );
+  });
+
+  festivalBgm.addEventListener("pause", () => {
+    sessionStorage.setItem(
+      "festivalBgmPlaying",
+      "false"
+    );
+  });
+});
