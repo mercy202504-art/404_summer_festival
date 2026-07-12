@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
   const bgm = document.getElementById("bgm");
 
   if (bgm) {
-    bgm.volume = 0.3;
+    bgm.volume = 0.15;
   }
 
   if (loading) {
