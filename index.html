@@ -1,67 +1,266 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>404夏祭り</title>
+<head>
+  <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="styles.css?v=30" />
-  </head>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-  <body>
+  <title>404夏祭り</title>
 
-<audio id="festival-bgm" loop preload="auto">
-  <source src="images/river.mp3" type="audio/mpeg">
-</audio>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-    <!-- 接続演出 -->
-    <div id="loading-screen">
-      <div class="loading-text">
-        <p>404夏祭りへ接続中...</p>
-        <p>見つからない記憶を検索しています...</p>
-      </div>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: #000;
+    }
 
-      <div class="loading-bar">
-        <div class="loading-progress"></div>
-      </div>
+    .festival-shell {
+      position: fixed;
+      inset: 0;
+      background: #000;
+    }
+
+    #festival-frame {
+      width: 100%;
+      height: 100%;
+      display: block;
+      border: 0;
+      background: #000;
+    }
+
+    .sound-start {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 24px;
+      background:
+        radial-gradient(
+          circle at center,
+          rgba(15, 45, 75, 0.92),
+          rgba(0, 5, 12, 0.98)
+        );
+
+      transition:
+        opacity 0.6s ease,
+        visibility 0.6s ease;
+    }
+
+    .sound-start.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .sound-panel {
+      width: min(390px, 90vw);
+      padding: 34px 26px;
+
+      text-align: center;
+      color: #eaf7ff;
+
+      border: 1px solid rgba(135, 215, 255, 0.35);
+      border-radius: 20px;
+
+      background: rgba(4, 15, 28, 0.82);
+      box-shadow:
+        0 0 25px rgba(80, 190, 255, 0.14),
+        inset 0 0 30px rgba(50, 140, 220, 0.06);
+
+      backdrop-filter: blur(12px);
+    }
+
+    .sound-code {
+      margin: 0 0 14px;
+
+      color: rgba(155, 220, 255, 0.7);
+      font-family: monospace;
+      font-size: 11px;
+      letter-spacing: 0.25em;
+    }
+
+    .sound-panel h1 {
+      margin: 0 0 14px;
+      font-size: 30px;
+      letter-spacing: 0.08em;
+    }
+
+    .sound-panel p {
+      margin: 0 0 26px;
+      color: rgba(220, 240, 255, 0.72);
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    #sound-start-button {
+      padding: 13px 24px;
+
+      color: #f2fbff;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.08em;
+
+      border: 1px solid rgba(140, 220, 255, 0.55);
+      border-radius: 13px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(34, 118, 170, 0.8),
+          rgba(48, 65, 145, 0.85)
+        );
+
+      cursor: pointer;
+    }
+
+    #sound-start-button:hover {
+      box-shadow: 0 0 22px rgba(95, 205, 255, 0.28);
+    }
+
+    .sound-control {
+      position: fixed;
+      right: 14px;
+      bottom: 14px;
+      z-index: 1000;
+
+      width: 44px;
+      height: 44px;
+
+      color: #dff6ff;
+      font-size: 19px;
+
+      border: 1px solid rgba(130, 215, 255, 0.32);
+      border-radius: 50%;
+
+      background: rgba(3, 17, 30, 0.74);
+      backdrop-filter: blur(8px);
+
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="festival-shell">
+
+    <iframe
+      id="festival-frame"
+      src="home.html"
+      title="404夏祭り"
+    ></iframe>
+
+  </div>
+
+  <audio
+    id="festival-bgm"
+    loop
+    preload="auto"
+  >
+    <source
+      src="images/river.mp3"
+      type="audio/mpeg"
+    >
+  </audio>
+
+  <div
+    id="sound-start"
+    class="sound-start"
+  >
+    <div class="sound-panel">
+
+      <p class="sound-code">
+        404 AUDIO CONNECTION
+      </p>
+
+      <h1>404夏祭り</h1>
+
+      <p>
+        音の流れる夏祭りへ接続します。<br>
+        画面を開いたまま、祭りを巡ってください。
+      </p>
+
+      <button
+        id="sound-start-button"
+        type="button"
+      >
+        ♪ 夏祭りへ入る
+      </button>
+
     </div>
+  </div>
 
-    <!-- メイン -->
-    <div class="container">
-      <div class="video-frame">
-        <!-- 背景動画 -->
-        <video class="bg-video" autoplay muted loop playsinline>
-          <source src="images/top.mp4" type="video/mp4" />
-        </video>
+  <button
+    id="sound-control"
+    class="sound-control"
+    type="button"
+    aria-label="BGMを切り替える"
+  >
+    ♪
+  </button>
 
-        <!-- 環境音 -->
-        <audio id="bgm" loop>
-          <source src="images/river.mp3" type="audio/mpeg" />
-        </audio>
+  <script>
+    const bgm =
+      document.getElementById("festival-bgm");
 
-        <!-- カウンター -->
-        <a href="archive.html" class="memory-counter">
-          <div class="label">流れ着いた記憶</div>
-          <div class="count">00404</div>
-        </a>
+    const startScreen =
+      document.getElementById("sound-start");
 
-        <!-- 奉納する -->
-        <a href="offer.html" class="hotspot offer"></a>
+    const startButton =
+      document.getElementById("sound-start-button");
 
-        <!-- 記録庫 -->
-        <a href="archive.html" class="hotspot archive"></a>
+    const soundControl =
+      document.getElementById("sound-control");
 
-        <!-- 接続記録 -->
-        <a href="logs.html" class="hotspot logs"></a>
+    bgm.volume = 0.15;
 
-        <!-- 404秘密掲示板 -->
-        <a href="404secret.html" class="hotspot secret404"></a>
+    async function startFestival() {
+      try {
+        await bgm.play();
 
-        <!-- 記憶の断片おみくじ -->
-        <a href="omikuji.html" class="hotspot omikuji"></a>
-      </div>
-    </div>
+        startScreen.classList.add("hidden");
+        soundControl.textContent = "♪";
+      } catch (error) {
+        console.error("BGMを開始できませんでした", error);
+      }
+    }
 
-    <script src="script.js?v=61"></script>
-  </body>
+    startButton.addEventListener(
+      "click",
+      startFestival
+    );
+
+    soundControl.addEventListener("click", async () => {
+      if (bgm.paused) {
+        try {
+          await bgm.play();
+          soundControl.textContent = "♪";
+        } catch (error) {
+          console.error(
+            "BGMを再開できませんでした",
+            error
+          );
+        }
+      } else {
+        bgm.pause();
+        soundControl.textContent = "×";
+      }
+    });
+  </script>
+
+</body>
 </html>

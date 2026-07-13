@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404夏祭り</title>
+
+    <link rel="stylesheet" href="styles.css?v=30" />
+  </head>
+
+  <body>
+
+    <!-- 接続演出 -->
+    <div id="loading-screen">
+      <div class="loading-text">
+        <p>404夏祭りへ接続中...</p>
+        <p>見つからない記憶を検索しています...</p>
+      </div>
+
+      <div class="loading-bar">
+        <div class="loading-progress"></div>
+      </div>
+    </div>
+
+    <!-- メイン -->
+    <div class="container">
+      <div class="video-frame">
+        <!-- 背景動画 -->
+        <video class="bg-video" autoplay muted loop playsinline>
+          <source src="images/top.mp4" type="video/mp4" />
+        </video>
+
+        <!-- 環境音 -->
+        <audio id="bgm" loop>
+          <source src="images/river.mp3" type="audio/mpeg" />
+        </audio>
+
+        <!-- カウンター -->
+        <a href="archive.html" class="memory-counter">
+          <div class="label">流れ着いた記憶</div>
+          <div class="count">00404</div>
+        </a>
+
+        <!-- 奉納する -->
+        <a href="offer.html" class="hotspot offer"></a>
+
+        <!-- 記録庫 -->
+        <a href="archive.html" class="hotspot archive"></a>
+
+        <!-- 接続記録 -->
+        <a href="logs.html" class="hotspot logs"></a>
+
+        <!-- 404秘密掲示板 -->
+        <a href="404secret.html" class="hotspot secret404"></a>
+
+        <!-- 記憶の断片おみくじ -->
+        <a href="omikuji.html" class="hotspot omikuji"></a>
+      </div>
+    </div>
+
+    <script src="script.js?v=61"></script>
+  </body>
+</html>
