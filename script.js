@@ -136,3 +136,16 @@ setTimeout(() => {
   });
 }
 
+function goHome() {
+  if (window.parent !== window) {
+    const frame =
+      window.parent.document.getElementById("festival-frame");
+
+    if (frame) {
+      frame.src = "home.html";
+      return;
+    }
+  }
+
+  window.location.href = "index.html";
+}
