@@ -1413,3 +1413,214 @@ body.archive-body {
     }
 
 }
+
+/*====================================
+  COMPLETE EVENT
+====================================*/
+
+.completion-overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.92);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    z-index:99999;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.6s;
+
+    backdrop-filter:blur(5px);
+
+}
+
+.completion-overlay.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+.completion-panel{
+
+    text-align:center;
+
+    color:white;
+
+    max-width:600px;
+
+    padding:40px;
+
+}
+
+.completion-code{
+
+    color:#66d9ff;
+
+    letter-spacing:.35em;
+
+    font-size:13px;
+
+    margin-bottom:20px;
+
+}
+
+.completion-counter{
+
+    font-size:64px;
+
+    font-weight:700;
+
+    margin:20px 0;
+
+    font-family:monospace;
+
+}
+
+.completion-panel h2{
+
+    font-size:34px;
+
+    margin-bottom:16px;
+
+}
+
+.completion-panel p{
+
+    line-height:1.8;
+
+}
+
+.secret-memory-button{
+
+    margin-top:40px;
+
+    padding:16px 34px;
+
+    border:none;
+
+    border-radius:999px;
+
+    background:#00c8ff;
+
+    color:#001018;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.secret-memory-button:hover{
+
+    transform:scale(1.05);
+
+}
+
+.completion-overlay.noise{
+
+    animation:archiveNoise .12s infinite;
+
+}
+
+@keyframes archiveNoise{
+
+    0%{
+
+        transform:translate(0);
+
+        filter:hue-rotate(0deg);
+
+    }
+
+    25%{
+
+        transform:translate(-2px,1px);
+
+    }
+
+    50%{
+
+        transform:translate(2px,-1px);
+
+        filter:hue-rotate(120deg);
+
+    }
+
+    75%{
+
+        transform:translate(-1px,2px);
+
+    }
+
+    100%{
+
+        transform:translate(0);
+
+    }
+
+}
+
+/* ===========================
+   Ending Overlay
+=========================== */
+
+#completion-overlay{
+    position:fixed;
+    inset:0;
+    background:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 1.5s;
+    z-index:99999;
+}
+
+#completion-overlay.show{
+    opacity:1;
+    visibility:visible;
+}
+
+#completion-image{
+    width:min(90vw,520px);
+    border-radius:12px;
+    box-shadow:0 0 50px rgba(255,255,255,.15);
+    transform:scale(.95);
+    transition:1.5s;
+}
+
+#completion-overlay.show #completion-image{
+    transform:scale(1);
+}
+
+#completion-message{
+    margin-top:24px;
+    color:white;
+    text-align:center;
+    font-size:18px;
+    line-height:2;
+    opacity:0;
+    transition:2s;
+}
+
+#completion-message.show{
+    opacity:1;
+}

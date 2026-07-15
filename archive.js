@@ -37,6 +37,19 @@ document.addEventListener("DOMContentLoaded", () => {
   percent.textContent = `${completion.toFixed(1)}%`;
   progress.style.width = `${completion}%`;
 
+const COMPLETION_KEY = "archiveCompletionShown";
+
+if (
+    observedCount >= 144 &&
+    localStorage.getItem(COMPLETION_KEY) !== "true"
+) {
+    localStorage.setItem(COMPLETION_KEY, "true");
+
+    setTimeout(() => {
+        startArchiveCompletionSequence();
+    }, 800);
+}
+
   empty.hidden = observedCount !== 0;
 
   cards.forEach(card => {
@@ -148,3 +161,125 @@ modalRarity.className =
     }
   });
 });
+
+/* ==========================================
+   144枚コンプリート後の異常演出
+========================================== */
+
+function startArchiveCompletionSequence() {
+  const overlay =
+    document.getElementById("completion-overlay");
+
+  const counter =
+    document.getElementById("completion-counter");
+
+  const title =
+    document.getElementById("completion-title");
+
+  const message =
+    document.getElementById("completion-message");
+
+  const secretButton =
+    document.getElementById("secret-memory-button");
+
+  const image =
+    document.getElementById("completion-image");
+
+  const finalMessage =
+    document.getElementById("completion-final-message");
+
+  const homeButton =
+    document.getElementById("completion-home-button");
+
+  if (
+    !overlay ||
+    !counter ||
+    !title ||
+    !message ||
+    !secretButton ||
+    !image ||
+    !finalMessage ||
+    !homeButton
+  ) {
+    return;
+  }
+
+  overlay.classList.add("show");
+  overlay.setAttribute("aria-hidden", "false");
+
+  counter.textContent = "144 / 144";
+  title.textContent = "観測が完了しました";
+  message.textContent = "すべての記録が揃っています。";
+  secretButton.hidden = true;
+
+  setTimeout(() => {
+    overlay.classList.add("noise");
+    title.textContent = "ARCHIVE ERROR";
+    message.textContent = "記録数に不整合が発生しました。";
+  }, 2000);
+
+  setTimeout(() => {
+    counter.textContent = "145 / 144";
+    title.textContent = "UNKNOWN MEMORY DETECTED";
+    message.textContent =
+      "登録されていない記録が観測されています。";
+  }, 3200);
+
+  setTimeout(() => {
+    overlay.classList.remove("noise");
+    secretButton.hidden = false;
+  }, 4300);
+}
+
+secretButton.onclick = () => {
+    secretButton.hidden = true;
+
+    counter.hidden = true;
+    message.hidden = true;
+
+    title.textContent = "最後の記録を開いています…";
+
+    overlay.classList.add("noise");
+
+    setTimeout(() => {
+        overlay.classList.remove("noise");
+
+        title.textContent = "NO.YOU";
+
+        image.hidden = false;
+        finalMessage.hidden = false;
+        homeButton.hidden = false;
+    }, 1800);
+};title.textContent = "NO.YOU";
+
+image.src = "images/memory145.png";
+
+image.hidden = false;
+
+requestAnimationFrame(() => {
+    image.classList.add("show");
+});
+
+setTimeout(() => {
+
+    finalMessage.hidden = false;
+
+    requestAnimationFrame(() => {
+        finalMessage.classList.add("show");
+    });
+
+},1200);
+
+setTimeout(() => {
+
+    homeButton.hidden = false;
+
+    requestAnimationFrame(() => {
+        homeButton.classList.add("show");
+    });
+
+},2500);
+
+homeButton.onclick = () => {
+    goHome();
+};
