@@ -1624,3 +1624,8 @@ body.archive-body {
 #completion-message.show{
     opacity:1;
 }
+
+/* hidden属性を必ず優先する */
+#completion-overlay [hidden]{
+    display:none !important;
+}
