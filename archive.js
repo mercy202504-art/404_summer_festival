@@ -229,7 +229,6 @@ function startArchiveCompletionSequence() {
     overlay.classList.remove("noise");
     secretButton.hidden = false;
   }, 4300);
-}
 
 secretButton.onclick = () => {
     secretButton.hidden = true;
@@ -283,3 +282,5 @@ setTimeout(() => {
 homeButton.onclick = () => {
     goHome();
 };
+
+}
