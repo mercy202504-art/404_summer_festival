@@ -68,8 +68,14 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
 
         <div class="archive-card-title">
-          ${card.title}
-        </div>
+    ${card.title}
+</div>
+
+<div class="archive-card-rarity rarity-${(card.rarity || "COMMON").toLowerCase()}">
+    ${(card.rarity || "COMMON") === "404"
+        ? "404 MEMORY"
+        : (card.rarity || "COMMON")}
+</div>
       `;
 
       const thumbnail = item.querySelector("img");
