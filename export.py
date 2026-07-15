@@ -53,6 +53,7 @@ def main() -> None:
         "Mood",
         "Composition",
         "Lighting",
+        "Rarity",
         "ImagePrompt",
         "Filename",
         "Status",
@@ -108,6 +109,12 @@ def main() -> None:
             "lighting": text(
                 sheet.cell(row, headers["Lighting"]).value
             ),
+            "rarity": text(
+    sheet.cell(
+        row,
+        headers["Rarity"]
+    ).value
+) or "COMMON",
             "prompt": text(
                 sheet.cell(row, headers["ImagePrompt"]).value
             ),

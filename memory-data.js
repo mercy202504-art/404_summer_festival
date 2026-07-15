@@ -12,9 +12,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日の夏祭り. Mood:月が低く見えた。\nあの日の夏祭りを思い出しそうになる。\n夜風だけ覚えていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 神社の夏祭り at 神社参道. Title concept: あの日の夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: rear view, face not visible. Time: 夜. Weather and air: 微風. Lighting: 青白い光. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / あの日の夏祭りを思い出しそうになる。 / 夜風だけ覚えていた。.",
     "image": "images/memory/001.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "あの日の_花火": {
     "no": "002",
@@ -26,9 +27,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日の花火. Mood:月が低く見えた。\n線香花火をまだ信じていた。\n光だけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: あの日の花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: rear view, face not visible. Time: 夜. Weather and air: 湿った夜気. Lighting: 花火. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / 線香花火をまだ信じていた。 / 光だけ笑っていた。.",
     "image": "images/memory/002.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "あの日の_ラムネ": {
     "no": "003",
@@ -40,9 +42,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日のラムネ. Mood:汗が少し乾いた。\nあの日のラムネを思い出しそうになる。\nビー玉だけ帰らなかった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: あの日のラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: rear view, face not visible. Time: 夜. Weather and air: 薄曇り. Lighting: 月明かり. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / あの日のラムネを思い出しそうになる。 / ビー玉だけ帰らなかった。.",
     "image": "images/memory/003.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "あの日の_夕暮れ": {
     "no": "004",
@@ -54,9 +57,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日の夕暮れ. Mood:空はまだ青かった。\nビー玉が最後まで出てこない。\n風だけ知っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: あの日の夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: rear view, face not visible. Time: 朝. Weather and air: 風がある. Lighting: 灯籠. Color palette: warm sunset orange and clear cobalt blue. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / ビー玉が最後まで出てこない。 / 風だけ知っていた。.",
     "image": "images/memory/004.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "あの日の_鳥居": {
     "no": "005",
@@ -68,9 +72,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日の鳥居. Mood:汗が少し乾いた。\nあの日の鳥居を思い出しそうになる。\n境界だけ揺れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: あの日の鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: close-up of hands and an object, face not visible. Time: 夜. Weather and air: 微風. Lighting: 青白い光. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / あの日の鳥居を思い出しそうになる。 / 境界だけ揺れていた。.",
     "image": "images/memory/005.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "あの日の_灯籠": {
     "no": "006",
@@ -82,9 +87,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日の灯籠. Mood:汗が少し乾いた。\nラムネの泡だけ元気だった。\n灯りだけ残っていた。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 水面を流れる灯籠 at 静かな川. Title concept: あの日の灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: low angle focused on reflections on water. Time: 夕暮れ. Weather and air: 雨上がり. Lighting: 花火. Color palette: bright summer blue and soft golden sunlight. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / ラムネの泡だけ元気だった。 / 灯りだけ残っていた。.",
     "image": "images/memory/006.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "あの日の_河川敷": {
     "no": "007",
@@ -96,9 +102,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "横顔",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日の河川敷. Mood:風が少し止んだ。\nあの日の河川敷を思い出しそうになる。\n風だけ遊んでいた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の河川敷 at 川沿いの道. Title concept: あの日の河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: quiet side profile, facial features soft and indistinct. Time: 青い時間. Weather and air: 雨上がり. Lighting: 青白い光. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風が少し止んだ。 / あの日の河川敷を思い出しそうになる。 / 風だけ遊んでいた。.",
     "image": "images/memory/007.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "あの日の_蝉時雨": {
     "no": "008",
@@ -110,9 +117,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "横顔",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日の蝉時雨. Mood:ノイズが静かに混ざる。\nビー玉が最後まで出てこない。\n音だけ夏だった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: あの日の蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: quiet side profile, facial features soft and indistinct. Time: 青い時間. Weather and air: 雨上がり. Lighting: 月明かり. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / ビー玉が最後まで出てこない。 / 音だけ夏だった。.",
     "image": "images/memory/008.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "あの日の_祭り囃子": {
     "no": "009",
@@ -124,9 +132,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日の祭り囃子. Mood:夜気がゆっくり近づく。\nあの日の祭り囃子を思い出しそうになる。\n音だけ帰らなかった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: あの日の祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: low angle close-up of sandals and wet ground. Time: 夕暮れ後. Weather and air: 微風. Lighting: 夕暮れ. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / あの日の祭り囃子を思い出しそうになる。 / 音だけ帰らなかった。.",
     "image": "images/memory/009.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "あの日の_帰り道": {
     "no": "010",
@@ -138,9 +147,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日の帰り道. Mood:汗が少し乾いた。\n扇風機に向かって『あー』と言いたくなった。\n靴音だけ続いていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: あの日の帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: rear view, face not visible. Time: 夕暮れ後. Weather and air: 湿った夜気. Lighting: 青白い光. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 扇風機に向かって『あー』と言いたくなった。 / 靴音だけ続いていた。.",
     "image": "images/memory/010.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "あの日の_夜店": {
     "no": "011",
@@ -152,9 +162,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "横顔",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日の夜店. Mood:ノイズが静かに混ざる。\nあの日の夜店を思い出しそうになる。\nお腹だけ急いでいた。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: あの日の夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: quiet side profile, facial features soft and indistinct. Time: 夜. Weather and air: 無風. Lighting: 月明かり. Color palette: near-black with corrupted magenta and cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / あの日の夜店を思い出しそうになる。 / お腹だけ急いでいた。. Error label concept: OBSERVATION LOST.",
     "image": "images/memory/011.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "あの日の_打ち上げ跡": {
     "no": "012",
@@ -166,9 +177,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "横顔",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:あの日の打ち上げ跡. Mood:風鈴がひとつ鳴った。\nラムネの泡だけ元気だった。\n静けさだけ広がった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: あの日の打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: quiet side profile, facial features soft and indistinct. Time: 夕暮れ. Weather and air: 雨上がり. Lighting: 灯籠. Color palette: fresh green, pale cyan and warm white. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / ラムネの泡だけ元気だった。 / 静けさだけ広がった。.",
     "image": "images/memory/012.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_夏祭り": {
     "no": "013",
@@ -180,9 +192,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後の夏祭り. Mood:夜気がゆっくり近づく。\n最後の夏祭りを思い出しそうになる。\n提灯だけが揺れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 神社の夏祭り at 神社参道. Title concept: 最後の夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: wide view dominated by the summer sky. Time: 夜. Weather and air: 微風. Lighting: 灯籠. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 最後の夏祭りを思い出しそうになる。 / 提灯だけが揺れていた。.",
     "image": "images/memory/013.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_花火": {
     "no": "014",
@@ -194,9 +207,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "鳥居",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後の花火. Mood:夜気がゆっくり近づく。\nラムネの泡だけ元気だった。\n空だけ覚えていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: 最後の花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: symmetrical framing through a shrine gate. Time: 月夜. Weather and air: 微風. Lighting: 花火. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / ラムネの泡だけ元気だった。 / 空だけ覚えていた。.",
     "image": "images/memory/014.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_ラムネ": {
     "no": "015",
@@ -208,9 +222,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後のラムネ. Mood:ノイズが静かに混ざる。\n最後のラムネを思い出しそうになる。\n指だけ頑張っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: 最後のラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: rear view, face not visible. Time: 青い時間. Weather and air: 微風. Lighting: 灯籠. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / 最後のラムネを思い出しそうになる。 / 指だけ頑張っていた。.",
     "image": "images/memory/015.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_夕暮れ": {
     "no": "016",
@@ -222,9 +237,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後の夕暮れ. Mood:風鈴がひとつ鳴った。\nビー玉が最後まで出てこない。\n影だけ伸びていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: 最後の夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: rear view, face not visible. Time: 夜. Weather and air: 雨上がり. Lighting: 夕暮れ. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / ビー玉が最後まで出てこない。 / 影だけ伸びていた。.",
     "image": "images/memory/016.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_鳥居": {
     "no": "017",
@@ -236,9 +252,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後の鳥居. Mood:夜気がゆっくり近づく。\n最後の鳥居を思い出しそうになる。\n境界だけ揺れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: 最後の鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: rear view, face not visible. Time: 夕暮れ後. Weather and air: 湿った夜気. Lighting: 青白い光. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 最後の鳥居を思い出しそうになる。 / 境界だけ揺れていた。.",
     "image": "images/memory/017.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_灯籠": {
     "no": "018",
@@ -250,9 +267,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後の灯籠. Mood:風鈴がひとつ鳴った。\n扇風機に向かって『あー』と言いたくなった。\n光だけ流れていた。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 水面を流れる灯籠 at 静かな川. Title concept: 最後の灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: low angle focused on reflections on water. Time: 夏の午後. Weather and air: 薄曇り. Lighting: 花火. Color palette: fresh green, pale cyan and warm white. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 扇風機に向かって『あー』と言いたくなった。 / 光だけ流れていた。.",
     "image": "images/memory/018.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_河川敷": {
     "no": "019",
@@ -264,9 +282,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後の河川敷. Mood:灯りが水面にほどける。\n最後の河川敷を思い出しそうになる。\n水面だけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の河川敷 at 川沿いの道. Title concept: 最後の河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: wide view dominated by the summer sky. Time: 青い時間. Weather and air: 微風. Lighting: 花火. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 灯りが水面にほどける。 / 最後の河川敷を思い出しそうになる。 / 水面だけ笑っていた。.",
     "image": "images/memory/019.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_蝉時雨": {
     "no": "020",
@@ -278,9 +297,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後の蝉時雨. Mood:ノイズが静かに混ざる。\n屋台の匂いに負けた。\n音だけ夏だった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: 最後の蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: low angle focused on reflections on water. Time: 青い時間. Weather and air: 微風. Lighting: 灯籠. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / 屋台の匂いに負けた。 / 音だけ夏だった。.",
     "image": "images/memory/020.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_祭り囃子": {
     "no": "021",
@@ -292,9 +312,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "鳥居",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後の祭り囃子. Mood:月が低く見えた。\n最後の祭り囃子を思い出しそうになる。\n夜だけ踊っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: 最後の祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: symmetrical framing through a shrine gate. Time: 青い時間. Weather and air: 微風. Lighting: 月明かり. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / 最後の祭り囃子を思い出しそうになる。 / 夜だけ踊っていた。.",
     "image": "images/memory/021.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_帰り道": {
     "no": "022",
@@ -306,9 +327,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "横顔",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後の帰り道. Mood:灯りが水面にほどける。\n屋台の匂いに負けた。\n街灯だけ待っていた。",
+    "rarity": "EPIC",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: 最後の帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: quiet side profile, facial features soft and indistinct. Time: 夜. Weather and air: 無風. Lighting: 月明かり. Color palette: near-black with corrupted magenta and cyan. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 灯りが水面にほどける。 / 屋台の匂いに負けた。 / 街灯だけ待っていた。. Error label concept: SIGNAL NOISE.",
     "image": "images/memory/022.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_夜店": {
     "no": "023",
@@ -320,9 +342,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後の夜店. Mood:夜気がゆっくり近づく。\n最後の夜店を思い出しそうになる。\n財布だけ静かだった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: 最後の夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: close-up of hands and an object, face not visible. Time: 青い時間. Weather and air: 湿った夜気. Lighting: 灯籠. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 最後の夜店を思い出しそうになる。 / 財布だけ静かだった。.",
     "image": "images/memory/023.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "最後の_打ち上げ跡": {
     "no": "024",
@@ -334,9 +357,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "横顔",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:最後の打ち上げ跡. Mood:夜気がゆっくり近づく。\n線香花火をまだ信じていた。\n煙だけ知っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: 最後の打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: quiet side profile, facial features soft and indistinct. Time: 青い時間. Weather and air: 薄曇り. Lighting: 夕暮れ. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 線香花火をまだ信じていた。 / 煙だけ知っていた。.",
     "image": "images/memory/024.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_夏祭り": {
     "no": "025",
@@ -348,9 +372,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏の夏祭り. Mood:ノイズが静かに混ざる。\n夏の夏祭りを思い出しそうになる。\n夜風だけ覚えていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 神社の夏祭り at 神社参道. Title concept: 夏の夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: low angle close-up of sandals and wet ground. Time: 夕暮れ. Weather and air: 風がある. Lighting: 月明かり. Color palette: warm sunset orange and clear cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / 夏の夏祭りを思い出しそうになる。 / 夜風だけ覚えていた。.",
     "image": "images/memory/025.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_花火": {
     "no": "026",
@@ -362,9 +387,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏の花火. Mood:月が低く見えた。\nビー玉が最後まで出てこない。\n夜だけが残った。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: 夏の花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: low angle focused on reflections on water. Time: 月夜. Weather and air: 微風. Lighting: 夕暮れ. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / ビー玉が最後まで出てこない。 / 夜だけが残った。.",
     "image": "images/memory/026.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_ラムネ": {
     "no": "027",
@@ -376,9 +402,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏のラムネ. Mood:汗が少し乾いた。\n夏のラムネを思い出しそうになる。\n指だけ頑張っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: 夏のラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: low angle close-up of sandals and wet ground. Time: 夜. Weather and air: 湿った夜気. Lighting: 青白い光. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 夏のラムネを思い出しそうになる。 / 指だけ頑張っていた。.",
     "image": "images/memory/027.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_夕暮れ": {
     "no": "028",
@@ -390,9 +417,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "鳥居",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏の夕暮れ. Mood:夜気がゆっくり近づく。\nビー玉が最後まで出てこない。\n影だけ伸びていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: 夏の夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: symmetrical framing through a shrine gate. Time: 夕暮れ後. Weather and air: 湿った夜気. Lighting: 月明かり. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / ビー玉が最後まで出てこない。 / 影だけ伸びていた。.",
     "image": "images/memory/028.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_鳥居": {
     "no": "029",
@@ -404,9 +432,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "水面",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏の鳥居. Mood:空はまだ青かった。\n夏の鳥居を思い出しそうになる。\n足音だけ越えていった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: 夏の鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: low angle focused on reflections on water. Time: 夏の午後. Weather and air: 薄曇り. Lighting: 夕暮れ. Color palette: peach dusk, lavender clouds and reflected gold. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / 夏の鳥居を思い出しそうになる。 / 足音だけ越えていった。.",
     "image": "images/memory/029.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_灯籠": {
     "no": "030",
@@ -418,9 +447,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "手元",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏の灯籠. Mood:空はまだ青かった。\n扇風機に向かって『あー』と言いたくなった。\n灯りだけ残っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 水面を流れる灯籠 at 静かな川. Title concept: 夏の灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: close-up of hands and an object, face not visible. Time: 夕暮れ後. Weather and air: 雨上がり. Lighting: 青白い光. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / 扇風機に向かって『あー』と言いたくなった。 / 灯りだけ残っていた。.",
     "image": "images/memory/030.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_河川敷": {
     "no": "031",
@@ -432,9 +462,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "横顔",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏の河川敷. Mood:空はまだ青かった。\n夏の河川敷を思い出しそうになる。\n風だけ遊んでいた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の河川敷 at 川沿いの道. Title concept: 夏の河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: quiet side profile, facial features soft and indistinct. Time: 月夜. Weather and air: 湿った夜気. Lighting: 花火. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / 夏の河川敷を思い出しそうになる。 / 風だけ遊んでいた。.",
     "image": "images/memory/031.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_蝉時雨": {
     "no": "032",
@@ -446,9 +477,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "横顔",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏の蝉時雨. Mood:月が低く見えた。\n屋台の匂いに負けた。\n木陰だけ涼しかった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: 夏の蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: quiet side profile, facial features soft and indistinct. Time: 青い時間. Weather and air: 湿った夜気. Lighting: 青白い光. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / 屋台の匂いに負けた。 / 木陰だけ涼しかった。.",
     "image": "images/memory/032.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_祭り囃子": {
     "no": "033",
@@ -460,9 +492,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏の祭り囃子. Mood:月が低く見えた。\n夏の祭り囃子を思い出しそうになる。\n太鼓だけ急いでいた。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: 夏の祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: wide view dominated by the summer sky. Time: 時間不明. Weather and air: 信号ノイズ. Lighting: 青白い光. Color palette: dark violet, red scan noise and electric blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / 夏の祭り囃子を思い出しそうになる。 / 太鼓だけ急いでいた。. Error label concept: MEMORY NOT FOUND.",
     "image": "images/memory/033.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_帰り道": {
     "no": "034",
@@ -474,9 +507,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "手元",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏の帰り道. Mood:風鈴がひとつ鳴った。\n扇風機に向かって『あー』と言いたくなった。\n街灯だけ待っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: 夏の帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: close-up of hands and an object, face not visible. Time: 夜. Weather and air: 薄曇り. Lighting: 青白い光. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 扇風機に向かって『あー』と言いたくなった。 / 街灯だけ待っていた。.",
     "image": "images/memory/034.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_夜店": {
     "no": "035",
@@ -488,9 +522,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏の夜店. Mood:風が少し止んだ。\n夏の夜店を思い出しそうになる。\nお腹だけ急いでいた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: 夏の夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: wide view dominated by the summer sky. Time: 夜. Weather and air: 微風. Lighting: 月明かり. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風が少し止んだ。 / 夏の夜店を思い出しそうになる。 / お腹だけ急いでいた。.",
     "image": "images/memory/035.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "夏の_打ち上げ跡": {
     "no": "036",
@@ -502,9 +537,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "鳥居",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:夏の打ち上げ跡. Mood:ノイズが静かに混ざる。\nラムネの泡だけ元気だった。\n静けさだけ広がった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: 夏の打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: symmetrical framing through a shrine gate. Time: 朝. Weather and air: 晴れ. Lighting: 青白い光. Color palette: bright summer blue and soft golden sunlight. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / ラムネの泡だけ元気だった。 / 静けさだけ広がった。.",
     "image": "images/memory/036.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_夏祭り": {
     "no": "037",
@@ -516,9 +552,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "鳥居",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからない夏祭り. Mood:風が少し止んだ。\n見つからない夏祭りを思い出しそうになる。\n提灯だけが揺れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 神社の夏祭り at 神社参道. Title concept: 見つからない夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: symmetrical framing through a shrine gate. Time: 月夜. Weather and air: 雨上がり. Lighting: 青白い光. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風が少し止んだ。 / 見つからない夏祭りを思い出しそうになる。 / 提灯だけが揺れていた。.",
     "image": "images/memory/037.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_花火": {
     "no": "038",
@@ -530,9 +567,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "手元",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからない花火. Mood:風が少し止んだ。\nサンダルに小石が入った。\n夜だけが残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: 見つからない花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: close-up of hands and an object, face not visible. Time: 夕暮れ後. Weather and air: 微風. Lighting: 月明かり. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風が少し止んだ。 / サンダルに小石が入った。 / 夜だけが残った。.",
     "image": "images/memory/038.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_ラムネ": {
     "no": "039",
@@ -544,9 +582,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからないラムネ. Mood:ノイズが静かに混ざる。\n見つからないラムネを思い出しそうになる。\nビー玉だけ帰らなかった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: 見つからないラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: rear view, face not visible. Time: 青い時間. Weather and air: 微風. Lighting: 月明かり. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / 見つからないラムネを思い出しそうになる。 / ビー玉だけ帰らなかった。.",
     "image": "images/memory/039.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_夕暮れ": {
     "no": "040",
@@ -558,9 +597,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "空",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからない夕暮れ. Mood:空はまだ青かった。\n屋台の匂いに負けた。\n風だけ知っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: 見つからない夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: wide view dominated by the summer sky. Time: 夜. Weather and air: 湿った夜気. Lighting: 灯籠. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / 屋台の匂いに負けた。 / 風だけ知っていた。.",
     "image": "images/memory/040.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_鳥居": {
     "no": "041",
@@ -572,9 +612,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからない鳥居. Mood:風が少し止んだ。\n見つからない鳥居を思い出しそうになる。\n足音だけ越えていった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: 見つからない鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: rear view, face not visible. Time: 夕暮れ. Weather and air: 晴れ. Lighting: 夕暮れ. Color palette: peach dusk, lavender clouds and reflected gold. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風が少し止んだ。 / 見つからない鳥居を思い出しそうになる。 / 足音だけ越えていった。.",
     "image": "images/memory/041.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_灯籠": {
     "no": "042",
@@ -586,9 +627,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "手元",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからない灯籠. Mood:風が少し止んだ。\n屋台の匂いに負けた。\n水面だけ応えていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 水面を流れる灯籠 at 静かな川. Title concept: 見つからない灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: close-up of hands and an object, face not visible. Time: 青い時間. Weather and air: 微風. Lighting: 灯籠. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風が少し止んだ。 / 屋台の匂いに負けた。 / 水面だけ応えていた。.",
     "image": "images/memory/042.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_河川敷": {
     "no": "043",
@@ -600,9 +642,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからない河川敷. Mood:空はまだ青かった。\n見つからない河川敷を思い出しそうになる。\n水面だけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の河川敷 at 川沿いの道. Title concept: 見つからない河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: wide view dominated by the summer sky. Time: 夜. Weather and air: 微風. Lighting: 月明かり. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / 見つからない河川敷を思い出しそうになる。 / 水面だけ笑っていた。.",
     "image": "images/memory/043.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_蝉時雨": {
     "no": "044",
@@ -614,9 +657,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからない蝉時雨. Mood:灯りが水面にほどける。\nサンダルに小石が入った。\n空だけ静かだった。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: 見つからない蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: low angle focused on reflections on water. Time: 時間不明. Weather and air: 信号ノイズ. Lighting: 夕暮れ. Color palette: near-black with corrupted magenta and cyan. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 灯りが水面にほどける。 / サンダルに小石が入った。 / 空だけ静かだった。. Error label concept: MEMORY NOT FOUND.",
     "image": "images/memory/044.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_祭り囃子": {
     "no": "045",
@@ -628,9 +672,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "水面",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからない祭り囃子. Mood:灯りが水面にほどける。\n見つからない祭り囃子を思い出しそうになる。\n太鼓だけ急いでいた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: 見つからない祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: low angle focused on reflections on water. Time: 月夜. Weather and air: 微風. Lighting: 夕暮れ. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 灯りが水面にほどける。 / 見つからない祭り囃子を思い出しそうになる。 / 太鼓だけ急いでいた。.",
     "image": "images/memory/045.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_帰り道": {
     "no": "046",
@@ -642,9 +687,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "空",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからない帰り道. Mood:風鈴がひとつ鳴った。\nラムネの泡だけ元気だった。\n靴音だけ続いていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: 見つからない帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: wide view dominated by the summer sky. Time: 月夜. Weather and air: 雨上がり. Lighting: 夕暮れ. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / ラムネの泡だけ元気だった。 / 靴音だけ続いていた。.",
     "image": "images/memory/046.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_夜店": {
     "no": "047",
@@ -656,9 +702,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからない夜店. Mood:風鈴がひとつ鳴った。\n見つからない夜店を思い出しそうになる。\n匂いだけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: 見つからない夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: rear view, face not visible. Time: 月夜. Weather and air: 微風. Lighting: 夕暮れ. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 見つからない夜店を思い出しそうになる。 / 匂いだけ笑っていた。.",
     "image": "images/memory/047.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "見つからない_打ち上げ跡": {
     "no": "048",
@@ -670,9 +717,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "手元",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:見つからない打ち上げ跡. Mood:汗が少し乾いた。\n屋台の匂いに負けた。\n静けさだけ広がった。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: 見つからない打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: close-up of hands and an object, face not visible. Time: 夏の午後. Weather and air: 薄曇り. Lighting: 青白い光. Color palette: warm sunset orange and clear cobalt blue. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 屋台の匂いに負けた。 / 静けさだけ広がった。.",
     "image": "images/memory/048.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_夏祭り": {
     "no": "049",
@@ -684,9 +732,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れない夏祭り. Mood:風鈴がひとつ鳴った。\nまだ帰れない夏祭りを思い出しそうになる。\n夜風だけ覚えていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 神社の夏祭り at 神社参道. Title concept: まだ帰れない夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: low angle close-up of sandals and wet ground. Time: 月夜. Weather and air: 薄曇り. Lighting: 花火. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / まだ帰れない夏祭りを思い出しそうになる。 / 夜風だけ覚えていた。.",
     "image": "images/memory/049.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_花火": {
     "no": "050",
@@ -698,9 +747,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "空",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れない花火. Mood:汗が少し乾いた。\n線香花火をまだ信じていた。\n光だけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: まだ帰れない花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: wide view dominated by the summer sky. Time: 夕暮れ後. Weather and air: 湿った夜気. Lighting: 青白い光. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 線香花火をまだ信じていた。 / 光だけ笑っていた。.",
     "image": "images/memory/050.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_ラムネ": {
     "no": "051",
@@ -712,9 +762,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れないラムネ. Mood:空はまだ青かった。\nまだ帰れないラムネを思い出しそうになる。\n甘さだけ残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: まだ帰れないラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: low angle close-up of sandals and wet ground. Time: 夜. Weather and air: 微風. Lighting: 夕暮れ. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / まだ帰れないラムネを思い出しそうになる。 / 甘さだけ残った。.",
     "image": "images/memory/051.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_夕暮れ": {
     "no": "052",
@@ -726,9 +777,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "横顔",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れない夕暮れ. Mood:汗が少し乾いた。\n扇風機に向かって『あー』と言いたくなった。\n風だけ知っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: まだ帰れない夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: quiet side profile, facial features soft and indistinct. Time: 夏の午後. Weather and air: 雨上がり. Lighting: 月明かり. Color palette: bright summer blue and soft golden sunlight. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 扇風機に向かって『あー』と言いたくなった。 / 風だけ知っていた。.",
     "image": "images/memory/052.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_鳥居": {
     "no": "053",
@@ -740,9 +792,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れない鳥居. Mood:空はまだ青かった。\nまだ帰れない鳥居を思い出しそうになる。\n足音だけ越えていった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: まだ帰れない鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: rear view, face not visible. Time: 夜. Weather and air: 微風. Lighting: 灯籠. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / まだ帰れない鳥居を思い出しそうになる。 / 足音だけ越えていった。.",
     "image": "images/memory/053.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_灯籠": {
     "no": "054",
@@ -754,9 +807,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "足元",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れない灯籠. Mood:夜気がゆっくり近づく。\n扇風機に向かって『あー』と言いたくなった。\n灯りだけ残っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 水面を流れる灯籠 at 静かな川. Title concept: まだ帰れない灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: low angle close-up of sandals and wet ground. Time: 夜. Weather and air: 雨上がり. Lighting: 月明かり. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 扇風機に向かって『あー』と言いたくなった。 / 灯りだけ残っていた。.",
     "image": "images/memory/054.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_河川敷": {
     "no": "055",
@@ -768,9 +822,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れない河川敷. Mood:汗が少し乾いた。\nまだ帰れない河川敷を思い出しそうになる。\n風だけ遊んでいた。",
+    "rarity": "404",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 夏の河川敷 at 川沿いの道. Title concept: まだ帰れない河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: close-up of hands and an object, face not visible. Time: 夜. Weather and air: 信号ノイズ. Lighting: 花火. Color palette: black, deep blue, red glitch and cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / まだ帰れない河川敷を思い出しそうになる。 / 風だけ遊んでいた。. Error label concept: MEMORY ERROR.",
     "image": "images/memory/055.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_蝉時雨": {
     "no": "056",
@@ -782,9 +837,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れない蝉時雨. Mood:汗が少し乾いた。\n線香花火をまだ信じていた。\n音だけ夏だった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: まだ帰れない蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: rear view, face not visible. Time: 青い時間. Weather and air: 湿った夜気. Lighting: 灯籠. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 線香花火をまだ信じていた。 / 音だけ夏だった。.",
     "image": "images/memory/056.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_祭り囃子": {
     "no": "057",
@@ -796,9 +852,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "鳥居",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れない祭り囃子. Mood:空はまだ青かった。\nまだ帰れない祭り囃子を思い出しそうになる。\n太鼓だけ急いでいた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: まだ帰れない祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: symmetrical framing through a shrine gate. Time: 青い時間. Weather and air: 湿った夜気. Lighting: 花火. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / まだ帰れない祭り囃子を思い出しそうになる。 / 太鼓だけ急いでいた。.",
     "image": "images/memory/057.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_帰り道": {
     "no": "058",
@@ -810,9 +867,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れない帰り道. Mood:ノイズが静かに混ざる。\nサンダルに小石が入った。\n街灯だけ待っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: まだ帰れない帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: low angle focused on reflections on water. Time: 青い時間. Weather and air: 薄曇り. Lighting: 青白い光. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / サンダルに小石が入った。 / 街灯だけ待っていた。.",
     "image": "images/memory/058.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_夜店": {
     "no": "059",
@@ -824,9 +882,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "横顔",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れない夜店. Mood:汗が少し乾いた。\nまだ帰れない夜店を思い出しそうになる。\n匂いだけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: まだ帰れない夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: quiet side profile, facial features soft and indistinct. Time: 夕暮れ. Weather and air: 雨上がり. Lighting: 月明かり. Color palette: peach dusk, lavender clouds and reflected gold. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / まだ帰れない夜店を思い出しそうになる。 / 匂いだけ笑っていた。.",
     "image": "images/memory/059.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "まだ帰れない_打ち上げ跡": {
     "no": "060",
@@ -838,9 +897,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "鳥居",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:まだ帰れない打ち上げ跡. Mood:夜気がゆっくり近づく。\nサンダルに小石が入った。\n静けさだけ広がった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: まだ帰れない打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: symmetrical framing through a shrine gate. Time: 月夜. Weather and air: 微風. Lighting: 花火. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / サンダルに小石が入った。 / 静けさだけ広がった。.",
     "image": "images/memory/060.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_夏祭り": {
     "no": "061",
@@ -852,9 +912,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠い夏祭り. Mood:ノイズが静かに混ざる。\n遠い夏祭りを思い出しそうになる。\n笑い声だけ残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 神社の夏祭り at 神社参道. Title concept: 遠い夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: rear view, face not visible. Time: 青い時間. Weather and air: 湿った夜気. Lighting: 花火. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / 遠い夏祭りを思い出しそうになる。 / 笑い声だけ残った。.",
     "image": "images/memory/061.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_花火": {
     "no": "062",
@@ -866,9 +927,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "空",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠い花火. Mood:空はまだ青かった。\n線香花火をまだ信じていた。\n光だけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: 遠い花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: wide view dominated by the summer sky. Time: 夜. Weather and air: 微風. Lighting: 灯籠. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / 線香花火をまだ信じていた。 / 光だけ笑っていた。.",
     "image": "images/memory/062.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_ラムネ": {
     "no": "063",
@@ -880,9 +942,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "横顔",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠いラムネ. Mood:風鈴がひとつ鳴った。\n遠いラムネを思い出しそうになる。\n指だけ頑張っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: 遠いラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: quiet side profile, facial features soft and indistinct. Time: 夕暮れ. Weather and air: 風がある. Lighting: 夕暮れ. Color palette: bright summer blue and soft golden sunlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 遠いラムネを思い出しそうになる。 / 指だけ頑張っていた。.",
     "image": "images/memory/063.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_夕暮れ": {
     "no": "064",
@@ -894,9 +957,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠い夕暮れ. Mood:夜気がゆっくり近づく。\n扇風機に向かって『あー』と言いたくなった。\n影だけ伸びていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: 遠い夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: rear view, face not visible. Time: 青い時間. Weather and air: 微風. Lighting: 灯籠. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 扇風機に向かって『あー』と言いたくなった。 / 影だけ伸びていた。.",
     "image": "images/memory/064.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_鳥居": {
     "no": "065",
@@ -908,9 +972,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠い鳥居. Mood:灯りが水面にほどける。\n遠い鳥居を思い出しそうになる。\n足音だけ越えていった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: 遠い鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: low angle close-up of sandals and wet ground. Time: 月夜. Weather and air: 湿った夜気. Lighting: 花火. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 灯りが水面にほどける。 / 遠い鳥居を思い出しそうになる。 / 足音だけ越えていった。.",
     "image": "images/memory/065.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_灯籠": {
     "no": "066",
@@ -922,9 +987,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "足元",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠い灯籠. Mood:空はまだ青かった。\nサンダルに小石が入った。\n光だけ流れていた。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 水面を流れる灯籠 at 静かな川. Title concept: 遠い灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: low angle close-up of sandals and wet ground. Time: 夜. Weather and air: 雨上がり. Lighting: 夕暮れ. Color palette: near-black with corrupted magenta and cyan. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / サンダルに小石が入った。 / 光だけ流れていた。. Error label concept: MEMORY NOT FOUND.",
     "image": "images/memory/066.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_河川敷": {
     "no": "067",
@@ -936,9 +1002,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠い河川敷. Mood:汗が少し乾いた。\n遠い河川敷を思い出しそうになる。\n水面だけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の河川敷 at 川沿いの道. Title concept: 遠い河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: wide view dominated by the summer sky. Time: 夕暮れ後. Weather and air: 湿った夜気. Lighting: 月明かり. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 遠い河川敷を思い出しそうになる。 / 水面だけ笑っていた。.",
     "image": "images/memory/067.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_蝉時雨": {
     "no": "068",
@@ -950,9 +1017,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠い蝉時雨. Mood:汗が少し乾いた。\nビー玉が最後まで出てこない。\n空だけ静かだった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: 遠い蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: low angle focused on reflections on water. Time: 月夜. Weather and air: 薄曇り. Lighting: 青白い光. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / ビー玉が最後まで出てこない。 / 空だけ静かだった。.",
     "image": "images/memory/068.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_祭り囃子": {
     "no": "069",
@@ -964,9 +1032,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠い祭り囃子. Mood:風鈴がひとつ鳴った。\n遠い祭り囃子を思い出しそうになる。\n夜だけ踊っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: 遠い祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: low angle close-up of sandals and wet ground. Time: 夕暮れ後. Weather and air: 微風. Lighting: 青白い光. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 遠い祭り囃子を思い出しそうになる。 / 夜だけ踊っていた。.",
     "image": "images/memory/069.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_帰り道": {
     "no": "070",
@@ -978,9 +1047,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "空",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠い帰り道. Mood:灯りが水面にほどける。\n扇風機に向かって『あー』と言いたくなった。\n街灯だけ待っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: 遠い帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: wide view dominated by the summer sky. Time: 日没直前. Weather and air: 風がある. Lighting: 青白い光. Color palette: fresh green, pale cyan and warm white. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 灯りが水面にほどける。 / 扇風機に向かって『あー』と言いたくなった。 / 街灯だけ待っていた。.",
     "image": "images/memory/070.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_夜店": {
     "no": "071",
@@ -992,9 +1062,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "水面",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠い夜店. Mood:風鈴がひとつ鳴った。\n遠い夜店を思い出しそうになる。\nお腹だけ急いでいた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: 遠い夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: low angle focused on reflections on water. Time: 月夜. Weather and air: 湿った夜気. Lighting: 灯籠. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 遠い夜店を思い出しそうになる。 / お腹だけ急いでいた。.",
     "image": "images/memory/071.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "遠い_打ち上げ跡": {
     "no": "072",
@@ -1006,9 +1077,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "手元",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:遠い打ち上げ跡. Mood:灯りが水面にほどける。\nサンダルに小石が入った。\n火薬の匂いだけ残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: 遠い打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: close-up of hands and an object, face not visible. Time: 月夜. Weather and air: 雨上がり. Lighting: 月明かり. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 灯りが水面にほどける。 / サンダルに小石が入った。 / 火薬の匂いだけ残った。.",
     "image": "images/memory/072.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_夏祭り": {
     "no": "073",
@@ -1020,9 +1092,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のない夏祭り. Mood:汗が少し乾いた。\n名前のない夏祭りを思い出しそうになる。\n夜風だけ覚えていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 神社の夏祭り at 神社参道. Title concept: 名前のない夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: wide view dominated by the summer sky. Time: 月夜. Weather and air: 雨上がり. Lighting: 灯籠. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 名前のない夏祭りを思い出しそうになる。 / 夜風だけ覚えていた。.",
     "image": "images/memory/073.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_花火": {
     "no": "074",
@@ -1034,9 +1107,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のない花火. Mood:月が低く見えた。\nビー玉が最後まで出てこない。\n夜だけが残った。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: 名前のない花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: low angle focused on reflections on water. Time: 夏の午後. Weather and air: 風がある. Lighting: 花火. Color palette: fresh green, pale cyan and warm white. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / ビー玉が最後まで出てこない。 / 夜だけが残った。.",
     "image": "images/memory/074.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_ラムネ": {
     "no": "075",
@@ -1048,9 +1122,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のないラムネ. Mood:風鈴がひとつ鳴った。\n名前のないラムネを思い出しそうになる。\n甘さだけ残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: 名前のないラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: rear view, face not visible. Time: 青い時間. Weather and air: 微風. Lighting: 夕暮れ. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 名前のないラムネを思い出しそうになる。 / 甘さだけ残った。.",
     "image": "images/memory/075.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_夕暮れ": {
     "no": "076",
@@ -1062,9 +1137,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "鳥居",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のない夕暮れ. Mood:夜気がゆっくり近づく。\n扇風機に向かって『あー』と言いたくなった。\n風だけ知っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: 名前のない夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: symmetrical framing through a shrine gate. Time: 月夜. Weather and air: 雨上がり. Lighting: 月明かり. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 扇風機に向かって『あー』と言いたくなった。 / 風だけ知っていた。.",
     "image": "images/memory/076.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_鳥居": {
     "no": "077",
@@ -1076,9 +1152,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "横顔",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のない鳥居. Mood:夜気がゆっくり近づく。\n名前のない鳥居を思い出しそうになる。\n足音だけ越えていった。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: 名前のない鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: quiet side profile, facial features soft and indistinct. Time: 夜. Weather and air: 雨上がり. Lighting: 灯籠. Color palette: near-black with corrupted magenta and cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 名前のない鳥居を思い出しそうになる。 / 足音だけ越えていった。. Error label concept: SIGNAL NOISE.",
     "image": "images/memory/077.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_灯籠": {
     "no": "078",
@@ -1090,9 +1167,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "鳥居",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のない灯籠. Mood:空はまだ青かった。\n屋台の匂いに負けた。\n光だけ流れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 水面を流れる灯籠 at 静かな川. Title concept: 名前のない灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: symmetrical framing through a shrine gate. Time: 夜. Weather and air: 微風. Lighting: 花火. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / 屋台の匂いに負けた。 / 光だけ流れていた。.",
     "image": "images/memory/078.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_河川敷": {
     "no": "079",
@@ -1104,9 +1182,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のない河川敷. Mood:ノイズが静かに混ざる。\n名前のない河川敷を思い出しそうになる。\n水面だけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の河川敷 at 川沿いの道. Title concept: 名前のない河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: rear view, face not visible. Time: 夜. Weather and air: 雨上がり. Lighting: 花火. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / 名前のない河川敷を思い出しそうになる。 / 水面だけ笑っていた。.",
     "image": "images/memory/079.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_蝉時雨": {
     "no": "080",
@@ -1118,9 +1197,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "横顔",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のない蝉時雨. Mood:月が低く見えた。\n線香花火をまだ信じていた。\n木陰だけ涼しかった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: 名前のない蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: quiet side profile, facial features soft and indistinct. Time: 月夜. Weather and air: 薄曇り. Lighting: 夕暮れ. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / 線香花火をまだ信じていた。 / 木陰だけ涼しかった。.",
     "image": "images/memory/080.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_祭り囃子": {
     "no": "081",
@@ -1132,9 +1212,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のない祭り囃子. Mood:ノイズが静かに混ざる。\n名前のない祭り囃子を思い出しそうになる。\n音だけ帰らなかった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: 名前のない祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: rear view, face not visible. Time: 夕暮れ. Weather and air: 晴れ. Lighting: 花火. Color palette: peach dusk, lavender clouds and reflected gold. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / 名前のない祭り囃子を思い出しそうになる。 / 音だけ帰らなかった。.",
     "image": "images/memory/081.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_帰り道": {
     "no": "082",
@@ -1146,9 +1227,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "鳥居",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のない帰り道. Mood:ノイズが静かに混ざる。\nサンダルに小石が入った。\n街灯だけ待っていた。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: 名前のない帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: symmetrical framing through a shrine gate. Time: 青い時間. Weather and air: 薄曇り. Lighting: 月明かり. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / サンダルに小石が入った。 / 街灯だけ待っていた。.",
     "image": "images/memory/082.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_夜店": {
     "no": "083",
@@ -1160,9 +1242,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "横顔",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のない夜店. Mood:夜気がゆっくり近づく。\n名前のない夜店を思い出しそうになる。\n財布だけ静かだった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: 名前のない夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: quiet side profile, facial features soft and indistinct. Time: 青い時間. Weather and air: 雨上がり. Lighting: 花火. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 名前のない夜店を思い出しそうになる。 / 財布だけ静かだった。.",
     "image": "images/memory/083.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "名前のない_打ち上げ跡": {
     "no": "084",
@@ -1174,9 +1257,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "空",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:名前のない打ち上げ跡. Mood:風が少し止んだ。\nビー玉が最後まで出てこない。\n煙だけ知っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: 名前のない打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: wide view dominated by the summer sky. Time: 夜. Weather and air: 雨上がり. Lighting: 月明かり. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風が少し止んだ。 / ビー玉が最後まで出てこない。 / 煙だけ知っていた。.",
     "image": "images/memory/084.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_夏祭り": {
     "no": "085",
@@ -1188,9 +1272,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えない夏祭り. Mood:夜気がゆっくり近づく。\n誰にも言えない夏祭りを思い出しそうになる。\n夜風だけ覚えていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 神社の夏祭り at 神社参道. Title concept: 誰にも言えない夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: low angle close-up of sandals and wet ground. Time: 日没直前. Weather and air: 晴れ. Lighting: 花火. Color palette: fresh green, pale cyan and warm white. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 誰にも言えない夏祭りを思い出しそうになる。 / 夜風だけ覚えていた。.",
     "image": "images/memory/085.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_花火": {
     "no": "086",
@@ -1202,9 +1287,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "足元",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えない花火. Mood:風が少し止んだ。\n屋台の匂いに負けた。\n夜だけが残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: 誰にも言えない花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: low angle close-up of sandals and wet ground. Time: 青い時間. Weather and air: 雨上がり. Lighting: 灯籠. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風が少し止んだ。 / 屋台の匂いに負けた。 / 夜だけが残った。.",
     "image": "images/memory/086.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_ラムネ": {
     "no": "087",
@@ -1216,9 +1302,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えないラムネ. Mood:夜気がゆっくり近づく。\n誰にも言えないラムネを思い出しそうになる。\n指だけ頑張っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: 誰にも言えないラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: low angle close-up of sandals and wet ground. Time: 夜. Weather and air: 雨上がり. Lighting: 花火. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 誰にも言えないラムネを思い出しそうになる。 / 指だけ頑張っていた。.",
     "image": "images/memory/087.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_夕暮れ": {
     "no": "088",
@@ -1230,9 +1317,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えない夕暮れ. Mood:風鈴がひとつ鳴った。\n屋台の匂いに負けた。\n影だけ伸びていた。",
+    "rarity": "EPIC",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: 誰にも言えない夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: rear view, face not visible. Time: 夜. Weather and air: 無風. Lighting: 夕暮れ. Color palette: near-black with corrupted magenta and cyan. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 屋台の匂いに負けた。 / 影だけ伸びていた。. Error label concept: MEMORY ERROR.",
     "image": "images/memory/088.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_鳥居": {
     "no": "089",
@@ -1244,9 +1332,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "鳥居",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えない鳥居. Mood:空はまだ青かった。\n誰にも言えない鳥居を思い出しそうになる。\n足音だけ越えていった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: 誰にも言えない鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: symmetrical framing through a shrine gate. Time: 月夜. Weather and air: 雨上がり. Lighting: 月明かり. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / 誰にも言えない鳥居を思い出しそうになる。 / 足音だけ越えていった。.",
     "image": "images/memory/089.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_灯籠": {
     "no": "090",
@@ -1258,9 +1347,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えない灯籠. Mood:ノイズが静かに混ざる。\nラムネの泡だけ元気だった。\n光だけ流れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 水面を流れる灯籠 at 静かな川. Title concept: 誰にも言えない灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: low angle focused on reflections on water. Time: 夕暮れ後. Weather and air: 雨上がり. Lighting: 灯籠. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / ラムネの泡だけ元気だった。 / 光だけ流れていた。.",
     "image": "images/memory/090.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_河川敷": {
     "no": "091",
@@ -1272,9 +1362,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "水面",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えない河川敷. Mood:灯りが水面にほどける。\n誰にも言えない河川敷を思い出しそうになる。\n水面だけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の河川敷 at 川沿いの道. Title concept: 誰にも言えない河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: low angle focused on reflections on water. Time: 夜. Weather and air: 薄曇り. Lighting: 夕暮れ. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 灯りが水面にほどける。 / 誰にも言えない河川敷を思い出しそうになる。 / 水面だけ笑っていた。.",
     "image": "images/memory/091.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_蝉時雨": {
     "no": "092",
@@ -1286,9 +1377,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えない蝉時雨. Mood:夜気がゆっくり近づく。\n扇風機に向かって『あー』と言いたくなった。\n木陰だけ涼しかった。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: 誰にも言えない蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: low angle focused on reflections on water. Time: 日没直前. Weather and air: 風がある. Lighting: 青白い光. Color palette: bright summer blue and soft golden sunlight. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 扇風機に向かって『あー』と言いたくなった。 / 木陰だけ涼しかった。.",
     "image": "images/memory/092.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_祭り囃子": {
     "no": "093",
@@ -1300,9 +1392,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えない祭り囃子. Mood:風鈴がひとつ鳴った。\n誰にも言えない祭り囃子を思い出しそうになる。\n太鼓だけ急いでいた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: 誰にも言えない祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: wide view dominated by the summer sky. Time: 夕暮れ後. Weather and air: 薄曇り. Lighting: 灯籠. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 誰にも言えない祭り囃子を思い出しそうになる。 / 太鼓だけ急いでいた。.",
     "image": "images/memory/093.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_帰り道": {
     "no": "094",
@@ -1314,9 +1407,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "手元",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えない帰り道. Mood:汗が少し乾いた。\n線香花火をまだ信じていた。\n靴音だけ続いていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: 誰にも言えない帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: close-up of hands and an object, face not visible. Time: 月夜. Weather and air: 微風. Lighting: 夕暮れ. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 線香花火をまだ信じていた。 / 靴音だけ続いていた。.",
     "image": "images/memory/094.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_夜店": {
     "no": "095",
@@ -1328,9 +1422,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えない夜店. Mood:月が低く見えた。\n誰にも言えない夜店を思い出しそうになる。\n匂いだけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: 誰にも言えない夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: close-up of hands and an object, face not visible. Time: 夕暮れ後. Weather and air: 湿った夜気. Lighting: 月明かり. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / 誰にも言えない夜店を思い出しそうになる。 / 匂いだけ笑っていた。.",
     "image": "images/memory/095.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "誰にも言えない_打ち上げ跡": {
     "no": "096",
@@ -1342,9 +1437,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:誰にも言えない打ち上げ跡. Mood:夜気がゆっくり近づく。\n屋台の匂いに負けた。\n煙だけ知っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: 誰にも言えない打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: rear view, face not visible. Time: 朝. Weather and air: 薄曇り. Lighting: 灯籠. Color palette: fresh green, pale cyan and warm white. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 屋台の匂いに負けた。 / 煙だけ知っていた。.",
     "image": "images/memory/096.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_夏祭り": {
     "no": "097",
@@ -1356,9 +1452,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能の夏祭り. Mood:空はまだ青かった。\n接続不能の夏祭りを思い出しそうになる。\n笑い声だけ残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 神社の夏祭り at 神社参道. Title concept: 接続不能の夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: wide view dominated by the summer sky. Time: 月夜. Weather and air: 雨上がり. Lighting: 夕暮れ. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / 接続不能の夏祭りを思い出しそうになる。 / 笑い声だけ残った。.",
     "image": "images/memory/097.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_花火": {
     "no": "098",
@@ -1370,9 +1467,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能の花火. Mood:月が低く見えた。\nラムネの泡だけ元気だった。\n空だけ覚えていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: 接続不能の花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: rear view, face not visible. Time: 夜. Weather and air: 微風. Lighting: 青白い光. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / ラムネの泡だけ元気だった。 / 空だけ覚えていた。.",
     "image": "images/memory/098.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_ラムネ": {
     "no": "099",
@@ -1384,9 +1482,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "水面",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能のラムネ. Mood:空はまだ青かった。\n接続不能のラムネを思い出しそうになる。\n甘さだけ残った。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: 接続不能のラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: low angle focused on reflections on water. Time: 深夜. Weather and air: 観測不能. Lighting: 夕暮れ. Color palette: black, deep blue, red glitch and cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / 接続不能のラムネを思い出しそうになる。 / 甘さだけ残った。. Error label concept: OBSERVATION LOST.",
     "image": "images/memory/099.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_夕暮れ": {
     "no": "100",
@@ -1398,9 +1497,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "足元",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能の夕暮れ. Mood:夜気がゆっくり近づく。\nビー玉が最後まで出てこない。\n影だけ伸びていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: 接続不能の夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: low angle close-up of sandals and wet ground. Time: 夜. Weather and air: 薄曇り. Lighting: 夕暮れ. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / ビー玉が最後まで出てこない。 / 影だけ伸びていた。.",
     "image": "images/memory/100.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_鳥居": {
     "no": "101",
@@ -1412,9 +1512,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能の鳥居. Mood:風鈴がひとつ鳴った。\n接続不能の鳥居を思い出しそうになる。\n境界だけ揺れていた。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: 接続不能の鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: close-up of hands and an object, face not visible. Time: 時間不明. Weather and air: 無風. Lighting: 夕暮れ. Color palette: near-black with corrupted magenta and cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 接続不能の鳥居を思い出しそうになる。 / 境界だけ揺れていた。. Error label concept: MEMORY ERROR.",
     "image": "images/memory/101.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_灯籠": {
     "no": "102",
@@ -1426,9 +1527,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能の灯籠. Mood:風鈴がひとつ鳴った。\nサンダルに小石が入った。\n水面だけ応えていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 水面を流れる灯籠 at 静かな川. Title concept: 接続不能の灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: low angle focused on reflections on water. Time: 月夜. Weather and air: 薄曇り. Lighting: 夕暮れ. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / サンダルに小石が入った。 / 水面だけ応えていた。.",
     "image": "images/memory/102.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_河川敷": {
     "no": "103",
@@ -1440,9 +1542,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能の河川敷. Mood:汗が少し乾いた。\n接続不能の河川敷を思い出しそうになる。\n風だけ遊んでいた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 夏の河川敷 at 川沿いの道. Title concept: 接続不能の河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: wide view dominated by the summer sky. Time: 朝. Weather and air: 薄曇り. Lighting: 灯籠. Color palette: bright summer blue and soft golden sunlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 接続不能の河川敷を思い出しそうになる。 / 風だけ遊んでいた。.",
     "image": "images/memory/103.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_蝉時雨": {
     "no": "104",
@@ -1454,9 +1557,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "空",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能の蝉時雨. Mood:月が低く見えた。\nラムネの泡だけ元気だった。\n空だけ静かだった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: 接続不能の蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: wide view dominated by the summer sky. Time: 夕暮れ後. Weather and air: 雨上がり. Lighting: 花火. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / ラムネの泡だけ元気だった。 / 空だけ静かだった。.",
     "image": "images/memory/104.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_祭り囃子": {
     "no": "105",
@@ -1468,9 +1572,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能の祭り囃子. Mood:汗が少し乾いた。\n接続不能の祭り囃子を思い出しそうになる。\n太鼓だけ急いでいた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: 接続不能の祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: wide view dominated by the summer sky. Time: 夜. Weather and air: 雨上がり. Lighting: 花火. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 接続不能の祭り囃子を思い出しそうになる。 / 太鼓だけ急いでいた。.",
     "image": "images/memory/105.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_帰り道": {
     "no": "106",
@@ -1482,9 +1587,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能の帰り道. Mood:空はまだ青かった。\nラムネの泡だけ元気だった。\n街灯だけ待っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: 接続不能の帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: rear view, face not visible. Time: 月夜. Weather and air: 微風. Lighting: 青白い光. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / ラムネの泡だけ元気だった。 / 街灯だけ待っていた。.",
     "image": "images/memory/106.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_夜店": {
     "no": "107",
@@ -1496,9 +1602,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "水面",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能の夜店. Mood:汗が少し乾いた。\n接続不能の夜店を思い出しそうになる。\nお腹だけ急いでいた。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: 接続不能の夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: low angle focused on reflections on water. Time: 朝. Weather and air: 雨上がり. Lighting: 灯籠. Color palette: warm sunset orange and clear cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 接続不能の夜店を思い出しそうになる。 / お腹だけ急いでいた。.",
     "image": "images/memory/107.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "接続不能の_打ち上げ跡": {
     "no": "108",
@@ -1510,9 +1617,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "手元",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:接続不能の打ち上げ跡. Mood:月が低く見えた。\n扇風機に向かって『あー』と言いたくなった。\n静けさだけ広がった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: 接続不能の打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: close-up of hands and an object, face not visible. Time: 夜. Weather and air: 薄曇り. Lighting: 青白い光. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / 扇風機に向かって『あー』と言いたくなった。 / 静けさだけ広がった。.",
     "image": "images/memory/108.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_夏祭り": {
     "no": "109",
@@ -1524,9 +1632,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線の夏祭り. Mood:空はまだ青かった。\n404番線の夏祭りを思い出しそうになる。\n提灯だけが揺れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 神社の夏祭り at 神社参道. Title concept: 404番線の夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: wide view dominated by the summer sky. Time: 夕暮れ後. Weather and air: 湿った夜気. Lighting: 青白い光. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / 404番線の夏祭りを思い出しそうになる。 / 提灯だけが揺れていた。.",
     "image": "images/memory/109.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_花火": {
     "no": "110",
@@ -1538,9 +1647,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "足元",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線の花火. Mood:灯りが水面にほどける。\nビー玉が最後まで出てこない。\n夜だけが残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: 404番線の花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: low angle close-up of sandals and wet ground. Time: 夜. Weather and air: 微風. Lighting: 花火. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 灯りが水面にほどける。 / ビー玉が最後まで出てこない。 / 夜だけが残った。.",
     "image": "images/memory/110.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_ラムネ": {
     "no": "111",
@@ -1552,9 +1662,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線のラムネ. Mood:夜気がゆっくり近づく。\n404番線のラムネを思い出しそうになる。\n指だけ頑張っていた。",
+    "rarity": "EPIC",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: 404番線のラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: low angle close-up of sandals and wet ground. Time: 夜. Weather and air: 信号ノイズ. Lighting: 夕暮れ. Color palette: dark violet, red scan noise and electric blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 404番線のラムネを思い出しそうになる。 / 指だけ頑張っていた。. Error label concept: SIGNAL NOISE.",
     "image": "images/memory/111.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_夕暮れ": {
     "no": "112",
@@ -1566,9 +1677,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "鳥居",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線の夕暮れ. Mood:汗が少し乾いた。\n扇風機に向かって『あー』と言いたくなった。\n影だけ伸びていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: 404番線の夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: symmetrical framing through a shrine gate. Time: 青い時間. Weather and air: 微風. Lighting: 花火. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 扇風機に向かって『あー』と言いたくなった。 / 影だけ伸びていた。.",
     "image": "images/memory/112.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_鳥居": {
     "no": "113",
@@ -1580,9 +1692,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線の鳥居. Mood:月が低く見えた。\n404番線の鳥居を思い出しそうになる。\n境界だけ揺れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: 404番線の鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: close-up of hands and an object, face not visible. Time: 月夜. Weather and air: 雨上がり. Lighting: 灯籠. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / 404番線の鳥居を思い出しそうになる。 / 境界だけ揺れていた。.",
     "image": "images/memory/113.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_灯籠": {
     "no": "114",
@@ -1594,9 +1707,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "足元",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線の灯籠. Mood:風鈴がひとつ鳴った。\nビー玉が最後まで出てこない。\n光だけ流れていた。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 水面を流れる灯籠 at 静かな川. Title concept: 404番線の灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: low angle close-up of sandals and wet ground. Time: 夏の午後. Weather and air: 晴れ. Lighting: 花火. Color palette: warm sunset orange and clear cobalt blue. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / ビー玉が最後まで出てこない。 / 光だけ流れていた。.",
     "image": "images/memory/114.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_河川敷": {
     "no": "115",
@@ -1608,9 +1722,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線の河川敷. Mood:月が低く見えた。\n404番線の河川敷を思い出しそうになる。\n水面だけ笑っていた。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の河川敷 at 川沿いの道. Title concept: 404番線の河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: close-up of hands and an object, face not visible. Time: 夕暮れ後. Weather and air: 湿った夜気. Lighting: 夕暮れ. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / 404番線の河川敷を思い出しそうになる。 / 水面だけ笑っていた。.",
     "image": "images/memory/115.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_蝉時雨": {
     "no": "116",
@@ -1622,9 +1737,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線の蝉時雨. Mood:風鈴がひとつ鳴った。\n線香花火をまだ信じていた。\n音だけ夏だった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: 404番線の蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: rear view, face not visible. Time: 夕暮れ後. Weather and air: 薄曇り. Lighting: 青白い光. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 線香花火をまだ信じていた。 / 音だけ夏だった。.",
     "image": "images/memory/116.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_祭り囃子": {
     "no": "117",
@@ -1636,9 +1752,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線の祭り囃子. Mood:風が少し止んだ。\n404番線の祭り囃子を思い出しそうになる。\n太鼓だけ急いでいた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: 404番線の祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: close-up of hands and an object, face not visible. Time: 月夜. Weather and air: 雨上がり. Lighting: 花火. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風が少し止んだ。 / 404番線の祭り囃子を思い出しそうになる。 / 太鼓だけ急いでいた。.",
     "image": "images/memory/117.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_帰り道": {
     "no": "118",
@@ -1650,9 +1767,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "空",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線の帰り道. Mood:夜気がゆっくり近づく。\nビー玉が最後まで出てこない。\n空だけ知っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: 404番線の帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: wide view dominated by the summer sky. Time: 日没直前. Weather and air: 雨上がり. Lighting: 花火. Color palette: fresh green, pale cyan and warm white. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / ビー玉が最後まで出てこない。 / 空だけ知っていた。.",
     "image": "images/memory/118.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_夜店": {
     "no": "119",
@@ -1664,9 +1782,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線の夜店. Mood:風鈴がひとつ鳴った。\n404番線の夜店を思い出しそうになる。\n匂いだけ笑っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: 404番線の夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: close-up of hands and an object, face not visible. Time: 青い時間. Weather and air: 雨上がり. Lighting: 月明かり. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 404番線の夜店を思い出しそうになる。 / 匂いだけ笑っていた。.",
     "image": "images/memory/119.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "404番線の_打ち上げ跡": {
     "no": "120",
@@ -1678,9 +1797,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:404番線の打ち上げ跡. Mood:空はまだ青かった。\nラムネの泡だけ元気だった。\n火薬の匂いだけ残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: 404番線の打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: low angle focused on reflections on water. Time: 夜. Weather and air: 湿った夜気. Lighting: 月明かり. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / ラムネの泡だけ元気だった。 / 火薬の匂いだけ残った。.",
     "image": "images/memory/120.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_夏祭り": {
     "no": "121",
@@ -1692,9 +1812,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外の夏祭り. Mood:汗が少し乾いた。\n圏外の夏祭りを思い出しそうになる。\n笑い声だけ残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 神社の夏祭り at 神社参道. Title concept: 圏外の夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: close-up of hands and an object, face not visible. Time: 月夜. Weather and air: 湿った夜気. Lighting: 灯籠. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 圏外の夏祭りを思い出しそうになる。 / 笑い声だけ残った。.",
     "image": "images/memory/121.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_花火": {
     "no": "122",
@@ -1706,9 +1827,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "手元",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外の花火. Mood:風鈴がひとつ鳴った。\nサンダルに小石が入った。\n夜だけが残った。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: 圏外の花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: close-up of hands and an object, face not visible. Time: 夜. Weather and air: 無風. Lighting: 月明かり. Color palette: near-black with corrupted magenta and cyan. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / サンダルに小石が入った。 / 夜だけが残った。. Error label concept: MEMORY ERROR.",
     "image": "images/memory/122.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_ラムネ": {
     "no": "123",
@@ -1720,9 +1842,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "鳥居",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外のラムネ. Mood:風が少し止んだ。\n圏外のラムネを思い出しそうになる。\nビー玉だけ帰らなかった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: 圏外のラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: symmetrical framing through a shrine gate. Time: 夜. Weather and air: 湿った夜気. Lighting: 花火. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風が少し止んだ。 / 圏外のラムネを思い出しそうになる。 / ビー玉だけ帰らなかった。.",
     "image": "images/memory/123.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_夕暮れ": {
     "no": "124",
@@ -1734,9 +1857,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "手元",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外の夕暮れ. Mood:汗が少し乾いた。\n線香花火をまだ信じていた。\n風だけ知っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: 圏外の夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: close-up of hands and an object, face not visible. Time: 月夜. Weather and air: 湿った夜気. Lighting: 灯籠. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 線香花火をまだ信じていた。 / 風だけ知っていた。.",
     "image": "images/memory/124.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_鳥居": {
     "no": "125",
@@ -1748,9 +1872,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外の鳥居. Mood:月が低く見えた。\n圏外の鳥居を思い出しそうになる。\n境界だけ揺れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: 圏外の鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: rear view, face not visible. Time: 日没直前. Weather and air: 風がある. Lighting: 花火. Color palette: fresh green, pale cyan and warm white. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / 圏外の鳥居を思い出しそうになる。 / 境界だけ揺れていた。.",
     "image": "images/memory/125.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_灯籠": {
     "no": "126",
@@ -1762,9 +1887,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外の灯籠. Mood:夜気がゆっくり近づく。\n線香花火をまだ信じていた。\n光だけ流れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 水面を流れる灯籠 at 静かな川. Title concept: 圏外の灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: low angle focused on reflections on water. Time: 夜. Weather and air: 微風. Lighting: 灯籠. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 線香花火をまだ信じていた。 / 光だけ流れていた。.",
     "image": "images/memory/126.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_河川敷": {
     "no": "127",
@@ -1776,9 +1902,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外の河川敷. Mood:夜気がゆっくり近づく。\n圏外の河川敷を思い出しそうになる。\n足音だけ続いていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の河川敷 at 川沿いの道. Title concept: 圏外の河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: wide view dominated by the summer sky. Time: 青い時間. Weather and air: 雨上がり. Lighting: 灯籠. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 圏外の河川敷を思い出しそうになる。 / 足音だけ続いていた。.",
     "image": "images/memory/127.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_蝉時雨": {
     "no": "128",
@@ -1790,9 +1917,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "空",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外の蝉時雨. Mood:ノイズが静かに混ざる。\nビー玉が最後まで出てこない。\n木陰だけ涼しかった。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: 圏外の蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: wide view dominated by the summer sky. Time: 夜. Weather and air: 無風. Lighting: 灯籠. Color palette: dark violet, red scan noise and electric blue. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / ビー玉が最後まで出てこない。 / 木陰だけ涼しかった。. Error label concept: MEMORY NOT FOUND.",
     "image": "images/memory/128.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_祭り囃子": {
     "no": "129",
@@ -1804,9 +1932,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外の祭り囃子. Mood:夜気がゆっくり近づく。\n圏外の祭り囃子を思い出しそうになる。\n夜だけ踊っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: 圏外の祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: low angle close-up of sandals and wet ground. Time: 夕暮れ後. Weather and air: 湿った夜気. Lighting: 月明かり. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 圏外の祭り囃子を思い出しそうになる。 / 夜だけ踊っていた。.",
     "image": "images/memory/129.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_帰り道": {
     "no": "130",
@@ -1818,9 +1947,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "空",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外の帰り道. Mood:汗が少し乾いた。\nサンダルに小石が入った。\n空だけ知っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: 圏外の帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: wide view dominated by the summer sky. Time: 月夜. Weather and air: 微風. Lighting: 月明かり. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / サンダルに小石が入った。 / 空だけ知っていた。.",
     "image": "images/memory/130.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_夜店": {
     "no": "131",
@@ -1832,9 +1962,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "水面",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外の夜店. Mood:汗が少し乾いた。\n圏外の夜店を思い出しそうになる。\n財布だけ静かだった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: 圏外の夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: low angle focused on reflections on water. Time: 夜. Weather and air: 雨上がり. Lighting: 夕暮れ. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 汗が少し乾いた。 / 圏外の夜店を思い出しそうになる。 / 財布だけ静かだった。.",
     "image": "images/memory/131.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "圏外の_打ち上げ跡": {
     "no": "132",
@@ -1846,9 +1977,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "青白い光",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:圏外の打ち上げ跡. Mood:風鈴がひとつ鳴った。\nビー玉が最後まで出てこない。\n火薬の匂いだけ残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: 圏外の打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: rear view, face not visible. Time: 夏の午後. Weather and air: 雨上がり. Lighting: 青白い光. Color palette: bright summer blue and soft golden sunlight. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / ビー玉が最後まで出てこない。 / 火薬の匂いだけ残った。.",
     "image": "images/memory/132.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_夏祭り": {
     "no": "133",
@@ -1860,9 +1992,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "空",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりの夏祭り. Mood:ノイズが静かに混ざる。\nノイズ混じりの夏祭りを思い出しそうになる。\n提灯だけが揺れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 神社の夏祭り at 神社参道. Title concept: ノイズ混じりの夏祭り. Visual motif: 提灯と屋台. Subject: a lone person seen from behind. Composition: wide view dominated by the summer sky. Time: 夕暮れ後. Weather and air: 微風. Lighting: 花火. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: ノイズが静かに混ざる。 / ノイズ混じりの夏祭りを思い出しそうになる。 / 提灯だけが揺れていた。.",
     "image": "images/memory/133.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_花火": {
     "no": "134",
@@ -1874,9 +2007,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりの花火. Mood:月が低く見えた。\nラムネの泡だけ元気だった。\n夜だけが残った。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 打ち上げ花火 at 河川敷または湖畔. Title concept: ノイズ混じりの花火. Visual motif: 花火と煙. Subject: two distant figures walking quietly. Composition: low angle focused on reflections on water. Time: 月夜. Weather and air: 薄曇り. Lighting: 灯籠. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / ラムネの泡だけ元気だった。 / 夜だけが残った。.",
     "image": "images/memory/134.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_ラムネ": {
     "no": "135",
@@ -1888,9 +2022,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "後ろ姿",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりのラムネ. Mood:月が低く見えた。\nノイズ混じりのラムネを思い出しそうになる。\n指だけ頑張っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 冷たいラムネ瓶 at 縁側または夜店. Title concept: ノイズ混じりのラムネ. Visual motif: ビー玉と水滴. Subject: an empty chair suggesting someone just left. Composition: rear view, face not visible. Time: 夕暮れ後. Weather and air: 雨上がり. Lighting: 灯籠. Color palette: violet-blue with pale moonlight. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 月が低く見えた。 / ノイズ混じりのラムネを思い出しそうになる。 / 指だけ頑張っていた。.",
     "image": "images/memory/135.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_夕暮れ": {
     "no": "136",
@@ -1902,9 +2037,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "鳥居",
     "lighting": "月明かり",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりの夕暮れ. Mood:風鈴がひとつ鳴った。\n扇風機に向かって『あー』と言いたくなった。\n風だけ知っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 夏の夕暮れ at 住宅街または河川敷. Title concept: ノイズ混じりの夕暮れ. Visual motif: 長い影と茜空. Subject: a child-sized silhouette far in the background. Composition: symmetrical framing through a shrine gate. Time: 日没直前. Weather and air: 晴れ. Lighting: 月明かり. Color palette: bright summer blue and soft golden sunlight. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / 扇風機に向かって『あー』と言いたくなった。 / 風だけ知っていた。.",
     "image": "images/memory/136.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_鳥居": {
     "no": "137",
@@ -1916,9 +2052,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "横顔",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりの鳥居. Mood:夜気がゆっくり近づく。\nノイズ混じりの鳥居を思い出しそうになる。\n境界だけ揺れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 境界に立つ鳥居 at 神社の入口. Title concept: ノイズ混じりの鳥居. Visual motif: 鳥居としめ縄. Subject: no visible person, only traces of presence. Composition: quiet side profile, facial features soft and indistinct. Time: 月夜. Weather and air: 雨上がり. Lighting: 花火. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / ノイズ混じりの鳥居を思い出しそうになる。 / 境界だけ揺れていた。.",
     "image": "images/memory/137.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_灯籠": {
     "no": "138",
@@ -1930,9 +2067,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "横顔",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりの灯籠. Mood:夜気がゆっくり近づく。\n扇風機に向かって『あー』と言いたくなった。\n光だけ流れていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 水面を流れる灯籠 at 静かな川. Title concept: ノイズ混じりの灯籠. Visual motif: 灯りと水面. Subject: a hand holding a small summer object. Composition: quiet side profile, facial features soft and indistinct. Time: 月夜. Weather and air: 湿った夜気. Lighting: 花火. Color palette: rain-washed blue with small golden lights. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 扇風機に向かって『あー』と言いたくなった。 / 光だけ流れていた。.",
     "image": "images/memory/138.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_河川敷": {
     "no": "139",
@@ -1944,9 +2082,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりの河川敷. Mood:夜気がゆっくり近づく。\nノイズ混じりの河川敷を思い出しそうになる。\n足音だけ続いていた。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 夏の河川敷 at 川沿いの道. Title concept: ノイズ混じりの河川敷. Visual motif: 草と風. Subject: a lone person seen from behind. Composition: close-up of hands and an object, face not visible. Time: 月夜. Weather and air: 雨上がり. Lighting: 夕暮れ. Color palette: deep indigo and soft cyan. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / ノイズ混じりの河川敷を思い出しそうになる。 / 足音だけ続いていた。.",
     "image": "images/memory/139.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_蝉時雨": {
     "no": "140",
@@ -1958,9 +2097,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "足元",
     "lighting": "花火",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりの蝉時雨. Mood:夜気がゆっくり近づく。\n扇風機に向かって『あー』と言いたくなった。\n空だけ静かだった。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 蝉時雨の木陰 at 古い公園または参道. Title concept: ノイズ混じりの蝉時雨. Visual motif: 木漏れ日と蝉の気配. Subject: two distant figures walking quietly. Composition: low angle close-up of sandals and wet ground. Time: 夜. Weather and air: 微風. Lighting: 花火. Color palette: midnight blue with warm lantern orange. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 夜気がゆっくり近づく。 / 扇風機に向かって『あー』と言いたくなった。 / 空だけ静かだった。.",
     "image": "images/memory/140.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_祭り囃子": {
     "no": "141",
@@ -1972,9 +2112,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "足元",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりの祭り囃子. Mood:空はまだ青かった。\nノイズ混じりの祭り囃子を思い出しそうになる。\n夜だけ踊っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark, brighter exposure, luminous summer air, hopeful but not overly cheerful. Scene: 遠くの祭り囃子 at 夜の路地. Title concept: ノイズ混じりの祭り囃子. Visual motif: 太鼓と揺れる提灯. Subject: an empty chair suggesting someone just left. Composition: low angle close-up of sandals and wet ground. Time: 日没直前. Weather and air: 雨上がり. Lighting: 灯籠. Color palette: warm sunset orange and clear cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / ノイズ混じりの祭り囃子を思い出しそうになる。 / 夜だけ踊っていた。.",
     "image": "images/memory/141.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_帰り道": {
     "no": "142",
@@ -1986,9 +2127,10 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "水面",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりの帰り道. Mood:風鈴がひとつ鳴った。\nビー玉が最後まで出てこない。\n街灯だけ待っていた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 祭りの帰り道 at 濡れた住宅街. Title concept: ノイズ混じりの帰り道. Visual motif: 街灯と二つの影. Subject: a child-sized silhouette far in the background. Composition: low angle focused on reflections on water. Time: 青い時間. Weather and air: 微風. Lighting: 夕暮れ. Color palette: teal shadows with faded amber. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 風鈴がひとつ鳴った。 / ビー玉が最後まで出てこない。 / 街灯だけ待っていた。.",
     "image": "images/memory/142.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_夜店": {
     "no": "143",
@@ -2000,9 +2142,10 @@ const MEMORY_CARDS = {
     "mood": "Serious",
     "composition": "手元",
     "lighting": "灯籠",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりの夜店. Mood:灯りが水面にほどける。\nノイズ混じりの夜店を思い出しそうになる。\nお腹だけ急いでいた。",
+    "rarity": "COMMON",
+    "prompt": "404 Memory Camera observation, nostalgic Japanese summer, dreamlike cinematic anime realism, analog film texture, subtle grain, gentle bloom, slight motion blur, humid air, quiet emotional ambiguity, real and dreamlike at once, highly detailed, vertical 9:16, 1080x1920, no logo, no caption, no UI, no watermark. Scene: 閉店前の夜店 at 祭りの屋台通り. Title concept: ノイズ混じりの夜店. Visual motif: 食べ物の湯気と裸電球. Subject: no visible person, only traces of presence. Composition: close-up of hands and an object, face not visible. Time: 月夜. Weather and air: 微風. Lighting: 灯籠. Color palette: summer dusk peach and cobalt blue. Emotional tone: Serious, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 灯りが水面にほどける。 / ノイズ混じりの夜店を思い出しそうになる。 / お腹だけ急いでいた。.",
     "image": "images/memory/143.webp",
-    "status": "pending"
+    "status": "GENERATED"
   },
   "ノイズ混じりの_打ち上げ跡": {
     "no": "144",
@@ -2014,8 +2157,9 @@ const MEMORY_CARDS = {
     "mood": "Smile",
     "composition": "後ろ姿",
     "lighting": "夕暮れ",
-    "prompt": "Dreamlike nostalgic Japanese summer festival at night, emotional anime illustration, subtle VHS noise, soft blue-white glow, 9:16, no text. Theme:ノイズ混じりの打ち上げ跡. Mood:空はまだ青かった。\nサンダルに小石が入った。\n火薬の匂いだけ残った。",
+    "rarity": "RARE",
+    "prompt": "404 Memory Camera observation error, corrupted summer memory, heavy VHS noise, RGB split, scanline interference, digital tearing, missing fragments, double exposure, signal loss, unsettling but beautiful, red and cyan glitch accents, the numerals 404 clearly visible inside the scene as part of the corrupted memory, vertical 9:16, 1080x1920, no other readable text, no UI frame, no watermark. Scene: 花火大会の打ち上げ跡 at 人気のない河川敷. Title concept: ノイズ混じりの打ち上げ跡. Visual motif: 煙と空の椅子. Subject: a hand holding a small summer object. Composition: rear view, face not visible. Time: 深夜. Weather and air: 無風. Lighting: 夕暮れ. Color palette: dark violet, red scan noise and electric blue. Emotional tone: Smile, nostalgia, boundary, uncertainty, warmth without explanation. Poetic reference: 空はまだ青かった。 / サンダルに小石が入った。 / 火薬の匂いだけ残った。. Error label concept: MEMORY ERROR.",
     "image": "images/memory/144.webp",
-    "status": "pending"
+    "status": "GENERATED"
   }
 };

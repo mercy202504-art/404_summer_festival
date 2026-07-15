@@ -91,8 +91,17 @@ document.addEventListener("DOMContentLoaded", () => {
         modalNumber.textContent = `NO.${no}`;
         modalTitle.textContent = card.title;
         modalPoem.textContent = card.poem;
-        modalRarity.textContent =
-          card.rarity || card.Rarity || "COMMON";
+        const rarity = String(
+  card.rarity || card.Rarity || "COMMON"
+).toUpperCase();
+
+modalRarity.textContent =
+  rarity === "404"
+    ? "404 MEMORY"
+    : rarity;
+
+modalRarity.className =
+  `archive-modal-rarity rarity-${rarity.toLowerCase()}`;
 
         modal.classList.add("show");
         modal.setAttribute("aria-hidden", "false");

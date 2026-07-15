@@ -1083,11 +1083,64 @@ border: none;
 }
 
 .archive-modal-rarity{
-
-    color:#ffc75f;
-
+    display:inline-block;
+    margin-top:10px;
+    padding:6px 14px;
+    border-radius:999px;
+    font-size:13px;
+    font-weight:700;
     letter-spacing:2px;
+    text-transform:uppercase;
+}
 
+/* COMMON */
+.rarity-common{
+    background:#5a6470;
+    color:#fff;
+}
+
+/* RARE */
+.rarity-rare{
+    background:linear-gradient(90deg,#2d7cff,#7fd8ff);
+    color:#fff;
+    box-shadow:0 0 12px rgba(80,170,255,.6);
+}
+
+/* EPIC */
+.rarity-epic{
+    background:linear-gradient(90deg,#8f4cff,#ff63d1);
+    color:#fff;
+    box-shadow:0 0 16px rgba(180,80,255,.8);
+}
+
+/* 404 */
+.rarity-404{
+    background:#000;
+    color:#00f0ff;
+    border:1px solid #00f0ff;
+    box-shadow:
+        0 0 8px #00f0ff,
+        0 0 20px rgba(0,240,255,.5);
+    animation: glitch404 2s infinite;
+}
+
+@keyframes glitch404{
+    0%,100%{
+        filter:hue-rotate(0deg);
+        transform:translateX(0);
+    }
+    20%{
+        transform:translateX(-1px);
+    }
+    21%{
+        transform:translateX(1px);
+    }
+    40%{
+        filter:hue-rotate(30deg);
+    }
+    60%{
+        transform:translateY(-1px);
+    }
 }
 
 .archive-modal-close{
