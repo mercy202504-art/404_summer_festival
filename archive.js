@@ -255,22 +255,20 @@ secretButton.style.display = "none";
 image.src = "";
 
 image.hidden = true;
+image.style.display = "none";
 
 image.classList.remove("show");
 
 setTimeout(() => {
+  image.src = "images/memory145.png";
 
-    image.src = "images/memory145.png";
+  image.hidden = false;
+  image.style.display = "block";
 
-    image.hidden = false;
-
-    requestAnimationFrame(() => {
-
-        image.classList.add("show");
-
-    });
-
-},800);
+  requestAnimationFrame(() => {
+    image.classList.add("show");
+  });
+}, 800);
 
 setTimeout(() => {
 
