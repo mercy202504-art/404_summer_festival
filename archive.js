@@ -232,6 +232,7 @@ function startArchiveCompletionSequence() {
 
 secretButton.onclick = () => {
     secretButton.hidden = true;
+secretButton.style.display = "none";
 
     counter.hidden = true;
     message.hidden = true;
@@ -251,13 +252,25 @@ secretButton.onclick = () => {
     }, 1800);
 };title.textContent = "NO.YOU";
 
-image.src = "images/memory145.png";
+image.src = "";
 
-image.hidden = false;
+image.hidden = true;
 
-requestAnimationFrame(() => {
-    image.classList.add("show");
-});
+image.classList.remove("show");
+
+setTimeout(() => {
+
+    image.src = "images/memory145.png";
+
+    image.hidden = false;
+
+    requestAnimationFrame(() => {
+
+        image.classList.add("show");
+
+    });
+
+},800);
 
 setTimeout(() => {
 
