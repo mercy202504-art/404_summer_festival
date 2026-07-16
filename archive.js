@@ -237,30 +237,42 @@ secretButton.style.display = "none";
     counter.hidden = true;
     message.hidden = true;
 
-    title.textContent = "最後の記録を開いています…";
+title.textContent = "";
 
-    overlay.classList.add("noise");
+overlay.classList.add("noise");
 
-    setTimeout(() => {
-        overlay.classList.remove("noise");
-
-        title.textContent = "NO.YOU";
-
-        image.hidden = false;
-        finalMessage.hidden = false;
-        homeButton.hidden = false;
-    }, 1800);
-};title.textContent = "NO.YOU";
-
-image.src = "";
-
-image.hidden = true;
-image.style.display = "none";
-
-image.classList.remove("show");
+/*--------------------------
+LOADING
+--------------------------*/
 
 setTimeout(() => {
-  image.src = "images/memory145.png";
+
+    overlay.classList.remove("noise");
+
+    title.textContent = "LOADING FINAL RECORD...";
+
+},1000);
+
+setTimeout(() => {
+
+    title.textContent = "VERIFYING OBSERVER...";
+
+},2500);
+
+setTimeout(() => {
+
+    title.textContent = "OBSERVER VERIFIED";
+
+},4000);
+
+setTimeout(() => {
+
+    title.textContent = "CREATING RECORD...";
+
+},5200);
+
+const image =
+    document.createElement("img");
 
   image.hidden = false;
   image.style.display = "block";
