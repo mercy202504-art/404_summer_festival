@@ -271,16 +271,25 @@ setTimeout(() => {
 
 },5200);
 
-const image =
-    document.createElement("img");
+setTimeout(() => {
+    title.textContent = "NO.YOU";
 
-  image.hidden = false;
-  image.style.display = "block";
+    const image =
+        document.createElement("img");
 
-  requestAnimationFrame(() => {
-    image.classList.add("show");
-  });
-}, 800);
+    image.src = "images/memory145.png";
+    image.className = "completion-image";
+    image.alt = "Last Observer";
+
+    const panel =
+        overlay.querySelector(".completion-panel");
+
+    panel.appendChild(image);
+
+    requestAnimationFrame(() => {
+        image.classList.add("show");
+    });
+}, 7000);
 
 setTimeout(() => {
 
