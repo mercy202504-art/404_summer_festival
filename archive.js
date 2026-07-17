@@ -286,10 +286,29 @@ setTimeout(() => {
 
     panel.appendChild(image);
 
+const panel =
+    overlay.querySelector(".completion-panel");
+
+panel.appendChild(image);
+
+image.style.opacity = "0";
+image.style.transform = "scale(.96)";
+
+requestAnimationFrame(() => {
+
+    image.style.transition =
+        "opacity 2s ease, transform 2s ease";
+
+    image.style.opacity = "1";
+
+    image.style.transform = "scale(1)";
+
+});
+
     requestAnimationFrame(() => {
         image.classList.add("show");
     });
-}, 7000);
+}, 5200);
 
 setTimeout(() => {
 
