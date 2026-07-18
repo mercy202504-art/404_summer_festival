@@ -296,19 +296,20 @@ setTimeout(() => {
 const panel =
     overlay.querySelector(".completion-panel");
 
-panel.appendChild(image);
+const imageWrap = document.createElement("div");
+imageWrap.className = "completion-image-wrap";
+
+imageWrap.appendChild(image);
+panel.appendChild(imageWrap);
+
 const noYou = document.createElement("div");
-
 noYou.className = "handwritten-no-you";
-
 noYou.textContent = "No.You";
 
-panel.appendChild(noYou);
+imageWrap.appendChild(noYou);
 
 setTimeout(() => {
-
     noYou.classList.add("show");
-
 }, 300);
 
 image.style.opacity = "0";

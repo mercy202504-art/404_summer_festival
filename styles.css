@@ -1752,3 +1752,41 @@ body.archive-body {
     opacity:1;
 
 }
+
+.completion-image-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 520px;
+    margin: 24px auto;
+}
+
+.completion-image-wrap .completion-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.completion-image-wrap .handwritten-no-you {
+    position: absolute;
+    top: 4.5%;
+    left: 7%;
+
+    font-family: "Zen Kurenaido", cursive;
+    font-size: clamp(28px, 5vw, 48px);
+    color: #302923;
+
+    opacity: 0;
+    transform: translateY(4px) rotate(-2deg);
+
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+
+    pointer-events: none;
+}
+
+.completion-image-wrap .handwritten-no-you.show {
+    opacity: 1;
+    transform: translateY(0) rotate(-2deg);
+}
