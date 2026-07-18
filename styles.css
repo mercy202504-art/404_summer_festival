@@ -1419,29 +1419,34 @@ body.archive-body {
 ====================================*/
 
 .completion-overlay{
+    position: fixed;
+    inset: 0;
 
-    position:fixed;
+    background: rgba(0,0,0,.92);
 
-    inset:0;
+    display: flex;
 
-    background:rgba(0,0,0,.92);
+    align-items: flex-start;
+    justify-content: center;
 
-    display:flex;
+    z-index: 99999;
 
-    align-items:center;
+    opacity: 0;
+    visibility: hidden;
 
-    justify-content:center;
+    transition: .6s;
+    backdrop-filter: blur(5px);
 
-    z-index:99999;
+    overflow-y: auto;
+    overflow-x: hidden;
 
-    opacity:0;
+    padding:
+        max(24px, env(safe-area-inset-top))
+        0
+        max(40px, env(safe-area-inset-bottom));
 
-    visibility:hidden;
-
-    transition:.6s;
-
-    backdrop-filter:blur(5px);
-
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
 }
 
 .completion-overlay.show{
@@ -1657,4 +1662,40 @@ body.archive-body {
 .handwritten.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* ===== 145枚目完成画面の見切れ対策 ===== */
+
+#completion-overlay {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.completion-panel {
+    position: relative;
+    min-height: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding:
+        max(32px, env(safe-area-inset-top))
+        20px
+        max(48px, env(safe-area-inset-bottom));
+}
+
+.completion-panel img {
+    display: block;
+
+    width: min(92vw, 520px);
+    height: auto;
+
+    max-height: none;
+
+    object-fit: contain;
+
+    margin: 24px auto;
 }
