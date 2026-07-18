@@ -305,6 +305,12 @@ noYou.textContent = "No.You";
 
 panel.appendChild(noYou);
 
+setTimeout(() => {
+
+    noYou.classList.add("show");
+
+}, 300);
+
 image.style.opacity = "0";
 image.style.transform = "scale(.96)";
 
