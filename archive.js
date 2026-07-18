@@ -297,6 +297,13 @@ const panel =
     overlay.querySelector(".completion-panel");
 
 panel.appendChild(image);
+const noYou = document.createElement("div");
+
+noYou.className = "handwritten-no-you";
+
+noYou.textContent = "No.You";
+
+panel.appendChild(noYou);
 
 image.style.opacity = "0";
 image.style.transform = "scale(.96)";

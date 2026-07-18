@@ -1721,3 +1721,34 @@ body.archive-body {
 
     flex: none;
 }
+
+/* ===== 手書き No.You ===== */
+
+.handwritten-no-you{
+
+    position:absolute;
+
+    top:28px;
+
+    left:36px;
+
+    font-family:"Zen Kurenaido",cursive;
+
+    font-size:52px;
+
+    color:#2f2b27;
+
+    transform:rotate(-2deg);
+
+    opacity:0;
+
+    transition:opacity .8s ease;
+
+    pointer-events:none;
+}
+
+.handwritten-no-you.show{
+
+    opacity:1;
+
+}
