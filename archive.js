@@ -270,7 +270,7 @@ setTimeout(() => {
 setTimeout(() => {
 const image = document.createElement("img");
 
-image.src = "imagesmemory145-v2.png";
+image.src = "images/memory145-v2.png";
 image.className = "completion-image";
 image.alt = "Last Observer";
 
