@@ -281,10 +281,6 @@ setTimeout(() => {
     image.className = "completion-image";
     image.alt = "Last Observer";
 
-    const panel =
-        overlay.querySelector(".completion-panel");
-
-    panel.appendChild(image);
 
 const panel =
     overlay.querySelector(".completion-panel");
@@ -304,11 +300,7 @@ requestAnimationFrame(() => {
     image.style.transform = "scale(1)";
 
 });
-
-    requestAnimationFrame(() => {
-        image.classList.add("show");
-    });
-}, 5200);
+}, 7000);
 
 setTimeout(() => {
 
@@ -329,6 +321,8 @@ setTimeout(() => {
     });
 
 },2500);
+
+};
 
 homeButton.onclick = () => {
     goHome();
