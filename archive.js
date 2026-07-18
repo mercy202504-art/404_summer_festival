@@ -267,17 +267,6 @@ setTimeout(() => {
 
 },5200);
 
-setTimeout(() => {
-    title.textContent = "NO.YOU";
-
-    const image =
-        document.createElement("img");
-
-    image.src = "images/memory145-v2.png";
-    image.className = "completion-image";
-    image.alt = "Last Observer";
-
-
 const panel =
     overlay.querySelector(".completion-panel");
 
