@@ -273,6 +273,21 @@ setTimeout(() => {
     const image =
         document.createElement("img");
 
+setTimeout(() => {
+
+    const noYou = document.createElement("div");
+
+    noYou.className = "handwritten";
+    noYou.textContent = "No.You";
+
+    panel.appendChild(noYou);
+
+    requestAnimationFrame(() => {
+        noYou.classList.add("show");
+    });
+
+}, 300);
+
     image.src = "images/memory145.png";
     image.className = "completion-image";
     image.alt = "Last Observer";

@@ -1629,3 +1629,32 @@ body.archive-body {
 #completion-overlay [hidden]{
     display:none !important;
 }
+
+/* ===== 145枚目 No.You ===== */
+
+.handwritten {
+    position: absolute;
+    right: 8%;
+    bottom: 12%;
+
+    font-family: "Zen Kurenaido", cursive;
+    font-size: 42px;
+    color: #f6f2e8;
+
+    letter-spacing: 0.06em;
+
+    opacity: 0;
+    transform: translateY(6px);
+
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+
+    text-shadow:
+        0 0 6px rgba(255,255,255,.15);
+}
+
+.handwritten.show {
+    opacity: 1;
+    transform: translateY(0);
+}
