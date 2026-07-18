@@ -182,9 +182,6 @@ function startArchiveCompletionSequence() {
   const secretButton =
     document.getElementById("secret-memory-button");
 
-  const image =
-    document.getElementById("completion-image");
-
   const finalMessage =
     document.getElementById("completion-final-message");
 
@@ -197,7 +194,6 @@ function startArchiveCompletionSequence() {
     !title ||
     !message ||
     !secretButton ||
-    !image ||
     !finalMessage ||
     !homeButton
   ) {
