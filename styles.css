@@ -1699,3 +1699,25 @@ body.archive-body {
 
     margin: 24px auto;
 }
+/* 145枚目をスクロール内容の一部に固定 */
+.completion-panel .completion-image {
+    position: static !important;
+
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+
+    transform: none;
+
+    display: block;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    max-height: none;
+
+    margin: 24px auto;
+    object-fit: contain;
+
+    flex: none;
+}
