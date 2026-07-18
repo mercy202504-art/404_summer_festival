@@ -227,6 +227,10 @@ function startArchiveCompletionSequence() {
   }, 4300);
 
 secretButton.onclick = () => {
+  const endingMusic = new Audio("ending.mp3");
+    endingMusic.volume = 0.45;
+    endingMusic.play().catch(() => {});
+    
     secretButton.hidden = true;
 secretButton.style.display = "none";
 
