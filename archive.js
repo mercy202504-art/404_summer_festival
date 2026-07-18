@@ -289,6 +289,21 @@ noYou.textContent = "No.You";
 
 imageWrap.appendChild(noYou);
 
+const penSound = new Audio("pen.mp3");
+penSound.volume = 0.35;
+
+setTimeout(() => {
+
+    penSound.currentTime = 0;
+
+    penSound.play().catch(() => {
+        // 自動再生が止められた場合は無音で続行
+    });
+
+    noYou.classList.add("show");
+
+}, 300);
+
 setTimeout(() => {
     noYou.classList.add("show");
 }, 300);
