@@ -1806,3 +1806,430 @@ body.archive-body {
     touch-action: pan-y;
     overscroll-behavior: contain;
 }
+
+/* ==========================================================
+   404記録板
+========================================================== */
+
+.secret-board-body{
+    margin:0;
+    background:
+        radial-gradient(circle at top,#14304b 0%,#071018 45%,#020406 100%);
+    color:#eef8ff;
+    font-family:
+        "Yu Gothic",
+        "Hiragino Sans",
+        sans-serif;
+}
+
+.secret-board-page{
+    width:min(900px,92%);
+    margin:60px auto;
+}
+
+.secret-board-header{
+    text-align:center;
+    margin-bottom:42px;
+}
+
+.secret-board-code{
+    color:#73d5ff;
+    letter-spacing:.35em;
+    font-size:12px;
+    margin-bottom:12px;
+}
+
+.secret-board-title{
+    font-size:58px;
+    margin:0;
+    font-weight:800;
+}
+
+.secret-board-description{
+    margin-top:20px;
+    font-size:20px;
+    color:#d6ecff;
+}
+
+.secret-board-note{
+    color:#8db7d5;
+    font-size:14px;
+    margin-top:8px;
+}
+
+
+/* ---------- 端末 ---------- */
+
+.secret-board-terminal{
+
+    background:
+        rgba(6,18,28,.78);
+
+    border:
+        1px solid rgba(130,210,255,.25);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:
+        0 0 30px rgba(0,170,255,.12);
+
+    margin-bottom:42px;
+}
+
+.secret-board-terminal-head{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:14px 22px;
+
+    background:
+        rgba(25,45,60,.55);
+
+    border-bottom:
+        1px solid rgba(255,255,255,.08);
+}
+
+.terminal-light{
+
+    width:12px;
+    height:12px;
+
+    border-radius:50%;
+
+    background:#53ff8c;
+
+    box-shadow:
+        0 0 12px #53ff8c;
+}
+
+.terminal-status{
+
+    color:#7fffb5;
+    font-size:13px;
+}
+
+.secret-board-form{
+
+    padding:28px;
+}
+
+.secret-board-form label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    color:#8fdcff;
+
+    font-size:13px;
+
+    letter-spacing:.12em;
+}
+
+.secret-board-form input,
+.secret-board-form textarea{
+
+    width:100%;
+
+    box-sizing:border-box;
+
+    background:#09131c;
+
+    color:white;
+
+    border:
+        1px solid rgba(120,180,220,.25);
+
+    border-radius:12px;
+
+    padding:14px;
+
+    margin-bottom:20px;
+
+    font-size:15px;
+}
+
+.secret-board-form textarea{
+
+    min-height:170px;
+
+    resize:vertical;
+}
+
+.secret-board-form input:focus,
+.secret-board-form textarea:focus{
+
+    outline:none;
+
+    border-color:#4fc8ff;
+
+    box-shadow:
+        0 0 18px rgba(0,170,255,.18);
+}
+
+.secret-board-form-footer{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+#memory-count{
+
+    color:#8eb3c7;
+
+    font-size:13px;
+}
+
+#post-button{
+
+    border:none;
+
+    padding:13px 30px;
+
+    border-radius:999px;
+
+    background:
+        linear-gradient(135deg,#16b8ff,#1780ff);
+
+    color:white;
+
+    font-size:15px;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+#post-button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+        0 0 24px rgba(0,180,255,.35);
+}
+
+
+/* ---------- 投稿一覧 ---------- */
+
+.secret-board-records{
+
+    background:
+        rgba(6,18,28,.72);
+
+    border:
+        1px solid rgba(130,210,255,.18);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    backdrop-filter:blur(10px);
+}
+
+.secret-board-records-head{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:24px;
+}
+
+.secret-board-section-code{
+
+    color:#76d4ff;
+
+    font-size:11px;
+
+    letter-spacing:.25em;
+
+    margin-bottom:8px;
+}
+
+.secret-board-records h2{
+
+    margin:0;
+
+    font-size:30px;
+}
+
+#board-count{
+
+    color:#7ccfff;
+}
+
+.secret-board-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+}
+
+.secret-board-empty{
+
+    color:#8ba9bc;
+
+    text-align:center;
+
+    padding:30px;
+}
+
+
+/* ---------- 戻る ---------- */
+
+.secret-board-navigation{
+
+    margin:45px 0 80px;
+
+    text-align:center;
+}
+
+.secret-board-back{
+
+    display:inline-block;
+
+    padding:16px 36px;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    color:#dff5ff;
+
+    border:
+        1px solid rgba(120,200,255,.3);
+
+    transition:.25s;
+}
+
+.secret-board-back:hover{
+
+    background:
+        rgba(60,160,255,.12);
+
+    box-shadow:
+        0 0 22px rgba(0,170,255,.25);
+}
+
+/* ---------- 404記録板：記録カード ---------- */
+
+.memory-record-card {
+    padding: 22px;
+
+    border:
+        1px solid rgba(120, 205, 255, .18);
+
+    border-radius: 16px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(13, 35, 50, .82),
+            rgba(5, 15, 24, .88)
+        );
+
+    box-shadow:
+        inset 0 0 20px rgba(80, 180, 255, .03);
+
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.memory-record-card.new {
+    animation:
+        memory-record-arrive .9s ease both;
+}
+
+@keyframes memory-record-arrive {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+        filter: blur(4px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
+.memory-record-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+
+    margin-bottom: 16px;
+}
+
+.memory-record-observer {
+    margin: 0;
+
+    color: #7ddcff;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.memory-record-date {
+    color: #66899f;
+    font-family: monospace;
+    font-size: 11px;
+}
+
+.memory-record-text {
+    margin: 0;
+
+    color: #e2f2fa;
+
+    line-height: 1.9;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.memory-record-code {
+    margin: 18px 0 0;
+
+    color: #527387;
+
+    font-family: monospace;
+    font-size: 10px;
+    letter-spacing: .12em;
+}
+
+.board-status {
+    min-height: 1.5em;
+    margin: 18px 0 0;
+
+    text-align: right;
+    font-size: 13px;
+}
+
+.board-status.success {
+    color: #75ffad;
+}
+
+.board-status.error {
+    color: #ff8d9b;
+}
+
+#post-button:disabled {
+    opacity: .5;
+    cursor: wait;
+}
