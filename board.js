@@ -73,8 +73,13 @@ function createRecordCard(record) {
 
     const code = document.createElement("p");
     code.className = "memory-record-code";
-    code.textContent =
-        `MEMORY ID: ${String(record.id).slice(-8).toUpperCase()}`;
+
+   const serialNumber =
+    Number(record.serial) ||
+    Math.max(1, loadRecords().indexOf(record) + 1);
+
+code.textContent =
+    `MEMORY RECORD: 404-${String(serialNumber).padStart(4, "0")}`;
 
     header.appendChild(observer);
     header.appendChild(date);
@@ -107,13 +112,16 @@ function renderRecords() {
     }
 
     records
-        .slice()
-        .reverse()
-        .forEach(record => {
-            board.appendChild(
-                createRecordCard(record)
-            );
-        });
+    .map((record, index) => ({
+        ...record,
+        serial: Number(record.serial) || index + 1
+    }))
+    .reverse()
+    .forEach(record => {
+        board.appendChild(
+            createRecordCard(record)
+        );
+    });
 }
 
 
@@ -129,8 +137,56 @@ function showStatus(message, type = "") {
         `board-status ${type}`.trim();
 }
 
+function getNextSerial(records) {
 
-function submitRecord() {
+    const highestSerial = records.reduce((highest, record) => {
+        const serial = Number(record.serial) || 0;
+        return Math.max(highest, serial);
+    }, 0);
+
+    return highestSerial + 1;
+}
+
+function playLanternAnimation() {
+
+    return new Promise(resolve => {
+
+        const scene = document.createElement("div");
+        scene.className = "lantern-flow-scene";
+
+        const lantern = document.createElement("img");
+
+lantern.className = "memory-lantern-image";
+lantern.src = "images/lantern-flow.png";
+lantern.alt = "";
+
+        const message = document.createElement("p");
+        message.className = "lantern-flow-message";
+        message.textContent = "記録を灯籠へ移しています…";
+
+        scene.appendChild(lantern);
+        scene.appendChild(message);
+
+        document.body.appendChild(scene);
+
+        requestAnimationFrame(() => {
+            scene.classList.add("active");
+        });
+
+        setTimeout(() => {
+            scene.classList.add("fade-out");
+        }, 1500);
+
+        setTimeout(() => {
+            scene.remove();
+            resolve();
+        }, 1950);
+
+    });
+
+}
+
+async function submitRecord() {
     const memory = memoryInput.value.trim();
 
     if (!memory) {
@@ -142,6 +198,64 @@ function submitRecord() {
         memoryInput.focus();
         return;
     }
+
+    const name =
+        nameInput.value.trim() ||
+        "匿名の観測者";
+
+    const records = loadRecords();
+    const serial = getNextSerial(records);
+
+    const newRecord = {
+        id: `${Date.now()}-${Math.random()
+            .toString(16)
+            .slice(2)}`,
+
+        serial,
+        name,
+        memory,
+        createdAt: new Date().toISOString()
+    };
+
+    postButton.disabled = true;
+    postButton.textContent = "記録中…";
+
+    showStatus(
+        "灯籠へ記録を移しています。",
+        ""
+    );
+
+    await playLanternAnimation();
+
+    records.push(newRecord);
+    saveRecords(records);
+
+    memoryInput.value = "";
+    nameInput.value = "";
+
+    updateCharacterCount();
+    renderRecords();
+
+    showStatus(
+        `記録 404-${String(serial).padStart(4, "0")} を受信しました。`,
+        "success"
+    );
+
+    postButton.disabled = false;
+    postButton.textContent = "記録を送信する";
+
+    const newestCard =
+        board.querySelector(".memory-record-card");
+
+    if (newestCard) {
+        newestCard.classList.add("new");
+
+        newestCard.scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        });
+    }
+}
 
     const name =
         nameInput.value.trim() ||
@@ -183,7 +297,6 @@ function submitRecord() {
             block: "center"
         });
     }
-}
 
 
 memoryInput.addEventListener(

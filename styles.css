@@ -2233,3 +2233,136 @@ body.archive-body {
     opacity: .5;
     cursor: wait;
 }
+
+/* ==========================================================
+   記録送信：灯籠演出
+========================================================== */
+
+.lantern-flow-scene {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+
+    overflow: hidden;
+    pointer-events: none;
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(12, 44, 65, .28),
+            rgba(0, 6, 12, .7)
+        );
+
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.lantern-flow-scene.active {
+    opacity: 1;
+}
+
+.lantern-flow-scene.fade-out {
+    opacity: 0;
+}
+
+/* ---------- 灯籠画像 ---------- */
+
+.memory-lantern-image{
+
+    position:absolute;
+
+    top:48%;
+    right:-220px;
+
+    width:170px;
+
+    filter:
+        drop-shadow(0 0 28px rgba(255,190,90,.45));
+
+    animation:
+        lantern-image-flow 2.6s ease-in-out forwards;
+}
+
+.lantern-flow-message{
+
+    position:absolute;
+
+    left:50%;
+    bottom:14%;
+
+    transform:translateX(-50%);
+
+    color:#e8f6ff;
+
+    font-size:15px;
+
+    letter-spacing:.18em;
+
+    text-shadow:
+        0 0 12px rgba(120,210,255,.5);
+
+    animation:
+        lantern-message-pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes lantern-image-flow{
+
+    0%{
+
+        right:-220px;
+
+        transform:
+            translateY(40px)
+            rotate(2deg)
+            scale(.72);
+
+        opacity:0;
+    }
+
+    10%{
+        opacity:1;
+    }
+
+    35%{
+
+        transform:
+            translateY(-6px)
+            rotate(-1deg)
+            scale(.95);
+
+    }
+
+    60%{
+
+        transform:
+            translateY(8px)
+            rotate(1deg)
+            scale(1);
+
+    }
+
+    100%{
+
+        right:calc(100% + 240px);
+
+        transform:
+            translateY(-70px)
+            rotate(-2deg)
+            scale(.78);
+
+        opacity:0;
+    }
+
+}
+
+@keyframes lantern-message-pulse{
+
+    from{
+        opacity:.45;
+    }
+
+    to{
+        opacity:1;
+    }
+
+}
