@@ -257,48 +257,6 @@ async function submitRecord() {
     }
 }
 
-    const name =
-        nameInput.value.trim() ||
-        "匿名の観測者";
-
-    const records = loadRecords();
-
-    records.push({
-        id: `${Date.now()}-${Math.random()
-            .toString(16)
-            .slice(2)}`,
-
-        name,
-        memory,
-        createdAt: new Date().toISOString()
-    });
-
-    saveRecords(records);
-
-    memoryInput.value = "";
-    nameInput.value = "";
-
-    updateCharacterCount();
-    renderRecords();
-
-    showStatus(
-        "記録を受信しました。",
-        "success"
-    );
-
-    const newestCard =
-        board.querySelector(".memory-record-card");
-
-    if (newestCard) {
-        newestCard.classList.add("new");
-
-        newestCard.scrollIntoView({
-            behavior: "smooth",
-            block: "center"
-        });
-    }
-
-
 memoryInput.addEventListener(
     "input",
     updateCharacterCount
