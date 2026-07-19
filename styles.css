@@ -2280,7 +2280,7 @@ body.archive-body {
         drop-shadow(0 0 28px rgba(255,190,90,.45));
 
     animation:
-        lantern-image-flow 2.6s ease-in-out forwards;
+    lantern-image-flow 5.5s ease-in-out forwards;
 }
 
 .lantern-flow-message{

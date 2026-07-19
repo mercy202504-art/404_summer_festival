@@ -174,13 +174,13 @@ lantern.alt = "";
         });
 
         setTimeout(() => {
-            scene.classList.add("fade-out");
-        }, 1500);
+    scene.classList.add("fade-out");
+}, 4700);
 
-        setTimeout(() => {
-            scene.remove();
-            resolve();
-        }, 1950);
+setTimeout(() => {
+    scene.remove();
+    resolve();
+}, 5200);
 
     });
 
