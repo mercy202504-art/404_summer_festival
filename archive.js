@@ -227,6 +227,26 @@ function startArchiveCompletionSequence() {
   }, 4300);
 
 secretButton.onclick = () => {
+  // 親ページで流れているBGMを停止
+try {
+    const parentAudios = window.parent.document.querySelectorAll("audio");
+
+    parentAudios.forEach(audio => {
+        audio.pause();
+        audio.currentTime = 0;
+    });
+} catch (error) {
+    console.log("親ページのBGM停止をスキップしました");
+}
+
+// エンディングBGMを再生
+const endingMusic = new Audio("ending.mp3");
+endingMusic.volume = 0.45;
+endingMusic.loop = false;
+
+endingMusic.play().catch(error => {
+    console.log("エンディングBGMを再生できませんでした:", error);
+});
   const endingMusic = new Audio("ending.mp3");
     endingMusic.volume = 0.45;
     endingMusic.play().catch(() => {});
