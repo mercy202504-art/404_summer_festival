@@ -247,9 +247,6 @@ endingMusic.loop = false;
 endingMusic.play().catch(error => {
     console.log("エンディングBGMを再生できませんでした:", error);
 });
-  const endingMusic = new Audio("ending.mp3");
-    endingMusic.volume = 0.45;
-    endingMusic.play().catch(() => {});
     
     secretButton.hidden = true;
 secretButton.style.display = "none";
