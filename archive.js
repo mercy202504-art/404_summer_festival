@@ -240,7 +240,7 @@ try {
 }
 
 // エンディングBGMを再生
-const endingMusic = new Audio("ending.mp3");
+const endingMusic = new Audio("images/ending.mp3");
 endingMusic.volume = 0.45;
 endingMusic.loop = false;
 
@@ -313,7 +313,7 @@ noYou.textContent = "No.You";
 
 imageWrap.appendChild(noYou);
 
-const penSound = new Audio("pen.mp3");
+new Audio("images/pen.mp3")
 penSound.volume = 0.35;
 
 setTimeout(() => {
