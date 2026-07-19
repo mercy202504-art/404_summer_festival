@@ -1800,3 +1800,9 @@ body.archive-body {
 #completion-overlay::-webkit-scrollbar {
     display: none;
 }
+
+#completion-overlay {
+    pointer-events: auto;
+    touch-action: pan-y;
+    overscroll-behavior: contain;
+}

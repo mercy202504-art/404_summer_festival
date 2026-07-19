@@ -169,6 +169,18 @@ modalRarity.className =
 function startArchiveCompletionSequence() {
   const overlay =
     document.getElementById("completion-overlay");
+overlay.addEventListener(
+    "wheel",
+    event => {
+        event.preventDefault();
+
+        overlay.scrollBy({
+            top: event.deltaY,
+            behavior: "auto"
+        });
+    },
+    { passive: false }
+);
 
   const counter =
     document.getElementById("completion-counter");
