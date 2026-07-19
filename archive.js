@@ -304,6 +304,11 @@ imageWrap.className = "completion-image-wrap";
 imageWrap.appendChild(image);
 panel.appendChild(imageWrap);
 
+imageWrap.insertAdjacentElement(
+    "afterend",
+    homeButton
+);
+
 const noYou = document.createElement("div");
 noYou.className = "handwritten-no-you";
 noYou.textContent = "No.You";

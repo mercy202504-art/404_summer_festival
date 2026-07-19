@@ -1769,8 +1769,8 @@ body.archive-body {
 
 .completion-image-wrap .handwritten-no-you {
     position: absolute;
-    top: 5.8%;
-    left: 10%;
+    top: 3%;
+    left: 8%;
 
     font-family: "Zen Kurenaido", cursive;
     font-size: clamp(28px, 5vw, 48px);
