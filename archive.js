@@ -310,22 +310,16 @@ noYou.textContent = "No.You";
 
 imageWrap.appendChild(noYou);
 
-new Audio("images/pen.mp3")
+const penSound = new Audio("images/pen.mp3");
 penSound.volume = 0.35;
 
 setTimeout(() => {
-
     penSound.currentTime = 0;
 
-    penSound.play().catch(() => {
-        // 自動再生が止められた場合は無音で続行
+    penSound.play().catch(error => {
+        console.log("万年筆音を再生できませんでした:", error);
     });
 
-    noYou.classList.add("show");
-
-}, 300);
-
-setTimeout(() => {
     noYou.classList.add("show");
 }, 300);
 
