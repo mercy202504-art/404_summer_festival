@@ -2372,3 +2372,27 @@ body.archive-body {
     }
 
 }
+
+.connection-record {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 10000;
+  text-align: right;
+  font-family: "Courier New", monospace;
+  pointer-events: none;
+  text-shadow: 0 0 8px rgba(100,210,255,.35);
+}
+
+.connection-code{
+  font-size:9px;
+  letter-spacing:.28em;
+  color:rgba(130,215,255,.55);
+  margin-bottom:2px;
+}
+
+#connection-count{
+  font-size:13px;
+  letter-spacing:.12em;
+  color:rgba(180,235,255,.88);
+}
