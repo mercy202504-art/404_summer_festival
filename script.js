@@ -149,3 +149,8 @@ function goHome() {
 
   window.location.href = "index.html";
 }
+await supabaseClient
+  .from("connection_logs")
+  .insert({});
+
+  
