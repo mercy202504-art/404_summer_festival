@@ -167,6 +167,32 @@ transform: translateY(18px) scale(0.985);
     transform:translateY(0) scale(1);
 }
 
+.retry-button{
+    margin-top:22px;
+    padding:10px 22px;
+
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(160,220,255,.25);
+    border-radius:999px;
+
+    color:#dfefff;
+    font-size:14px;
+    letter-spacing:0.08em;
+
+    cursor:pointer;
+
+    transition:
+        background .25s,
+        border-color .25s,
+        transform .2s;
+}
+
+.retry-button:hover{
+    background:rgba(160,220,255,.10);
+    border-color:rgba(160,220,255,.45);
+    transform:translateY(-1px);
+}
+
 .memory-card-header {
   display: flex;
   justify-content: space-between;
