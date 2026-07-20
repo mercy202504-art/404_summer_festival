@@ -26,6 +26,15 @@ async function updateConnectionRecord() {
       throw error;
     }
 
+supabaseClient
+  .from("connection_logs")
+  .insert([{}])
+  .then(({ error }) => {
+    if (error) {
+      console.error("Connection log error:", error);
+    }
+  });
+
     const formattedCount = String(data).padStart(6, "0");
     countElement.textContent = formattedCount;
 
