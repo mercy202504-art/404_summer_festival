@@ -18,9 +18,9 @@ async function updateConnectionRecord() {
   }
 
   try {
-    const { data, error } = await supabase.rpc(
-      "increment_connection_counter"
-    );
+    const { data, error } = await supabaseClient.rpc(
+  "increment_connection_counter"
+);
 
     if (error) {
       throw error;
