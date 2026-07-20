@@ -2373,14 +2373,10 @@ body.archive-body {
 
 }
 
-.connection-code {
-    margin-top: 8px;
-    font-size: 8px;
-    letter-spacing: 0.35em;
-    opacity: .55;
-}
-
-#connection-count {
-    font-size: 12px;
-    letter-spacing: .18em;
+#connection-count{
+    margin-top:4px;
+    font-size:12px;
+    letter-spacing:.18em;
+    color:rgba(180,235,255,.9);
+    text-align:right;
 }
