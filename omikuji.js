@@ -7,44 +7,33 @@ const memoryText = document.getElementById("memory-text");
 const memoryId = document.getElementById("memory-id");
 
 function getRandomMemory() {
-  const randomIndex = Math.floor(Math.random() * memoryData.length);
-  return memoryData[randomIndex];
+
+    const keys = Object.keys(MEMORY_CARDS);
+
+    const randomKey =
+        keys[Math.floor(Math.random() * keys.length)];
+
+    return MEMORY_CARDS[randomKey];
 }
 
 function showMemoryCard() {
-  const memory = getRandomMemory();
 
-  memoryTitle.textContent =
-    memory.title ||
-    memory.Title ||
-    memory.keyword ||
-    memory.Keyword ||
-    "流れ着いた記憶";
+    const memory = getRandomMemory();
 
-  const text =
-    memory.memory ||
-    memory.Memory ||
-    memory.body ||
-    memory.Body ||
-    "";
+    memoryTitle.textContent = memory.title;
 
-  memoryText.innerHTML = String(text).replace(/\n/g, "<br>");
+    memoryText.innerHTML =
+        memory.poem.replace(/\n/g, "<br>");
 
-  const id =
-    memory.id ||
-    memory.ID ||
-    "M000";
+    memoryId.textContent =
+        "404-" + memory.memoryId;
 
-  memoryId.textContent = `404-${id}`;
+    memoryCard.classList.remove("show");
 
-  memoryCard.classList.remove("show");
-
-  requestAnimationFrame(() => {
     requestAnimationFrame(() => {
-      memoryCard.classList.add("show");
+        requestAnimationFrame(() => {
+            memoryCard.classList.add("show");
+        });
     });
-  });
-}
 
-omikujiButton.addEventListener("click", showMemoryCard);
-retryButton.addEventListener("click", showMemoryCard);
+}
