@@ -149,3 +149,17 @@ function goHome() {
 
   window.location.href = "index.html";
 }
+
+const memoryCard = document.getElementById("memory-card");
+
+document
+.getElementById("omikuji-button")
+.addEventListener("click", () => {
+
+    memoryCard.classList.remove("show");
+
+    requestAnimationFrame(() => {
+        memoryCard.classList.add("show");
+    });
+
+});
