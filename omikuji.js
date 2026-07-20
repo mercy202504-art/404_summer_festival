@@ -37,3 +37,6 @@ function showMemoryCard() {
     });
 
 }
+
+omikujiButton.addEventListener("click", showMemoryCard);
+retryButton.addEventListener("click", showMemoryCard);
