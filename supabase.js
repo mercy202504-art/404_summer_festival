@@ -22,10 +22,6 @@ async function updateConnectionRecord() {
   "increment_connection_counter"
 );
 
-await supabaseClient
-    .from("connection_logs")
-    .insert({});
-
     if (error) {
       throw error;
     }
