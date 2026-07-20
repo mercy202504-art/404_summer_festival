@@ -47,6 +47,3 @@ supabaseClient
 
 document.addEventListener("DOMContentLoaded", updateConnectionRecord);
 
-await supabaseClient
-  .from("connection_logs")
-  .insert({});
