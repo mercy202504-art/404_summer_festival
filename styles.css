@@ -2267,20 +2267,17 @@ body.archive-body {
 
 /* ---------- 灯籠画像 ---------- */
 
-.memory-lantern-image{
-
-    position:absolute;
-
-    top:48%;
-    right:-220px;
-
-    width:170px;
+.memory-lantern-image {
+    position: absolute;
+    top: 48%;
+    right: -220px;
+    width: 170px;
 
     filter:
         drop-shadow(0 0 28px rgba(255,190,90,.45));
 
     animation:
-    lantern-image-flow 5.5s ease-in-out forwards;
+        lantern-image-flow 5.2s linear forwards;
 }
 
 .lantern-flow-message{
@@ -2305,54 +2302,63 @@ body.archive-body {
         lantern-message-pulse 1s ease-in-out infinite alternate;
 }
 
-@keyframes lantern-image-flow{
+@keyframes lantern-image-flow {
 
-    0%{
-
-        right:-220px;
+    0% {
+        right: -220px;
 
         transform:
-            translateY(40px)
+            translateY(28px)
             rotate(2deg)
-            scale(.72);
-
-        opacity:0;
-    }
-
-    10%{
-        opacity:1;
-    }
-
-    35%{
-
-        transform:
-            translateY(-6px)
-            rotate(-1deg)
-            scale(.95);
-
-    }
-
-    60%{
-
-        transform:
-            translateY(8px)
-            rotate(1deg)
-            scale(1);
-
-    }
-
-    100%{
-
-        right:calc(100% + 240px);
-
-        transform:
-            translateY(-70px)
-            rotate(-2deg)
             scale(.78);
 
-        opacity:0;
+        opacity: 0;
     }
 
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        transform:
+            translateY(6px)
+            rotate(-1deg)
+            scale(.9);
+    }
+
+    40% {
+        transform:
+            translateY(18px)
+            rotate(1.5deg)
+            scale(.96);
+    }
+
+    60% {
+        transform:
+            translateY(-4px)
+            rotate(-1.5deg)
+            scale(1);
+    }
+
+    80% {
+        transform:
+            translateY(12px)
+            rotate(1deg)
+            scale(.92);
+
+        opacity: 1;
+    }
+
+    100% {
+        right: calc(100% + 240px);
+
+        transform:
+            translateY(-8px)
+            rotate(-2deg)
+            scale(.82);
+
+        opacity: 0;
+    }
 }
 
 @keyframes lantern-message-pulse{
