@@ -10,6 +10,7 @@ const supabaseClient = window.supabase.createClient(
 console.log("Supabase connected!", supabaseClient);
 
 async function updateConnectionRecord() {
+  if (!supabaseClient) return;
   const countElement = document.getElementById("connection-count");
 
   if (!countElement) {
@@ -49,4 +50,11 @@ supabaseClient
 }
 
 document.addEventListener("DOMContentLoaded", updateConnectionRecord);
-
+try {
+  document.addEventListener(
+    "DOMContentLoaded",
+    updateConnectionRecord
+  );
+} catch (e) {
+  console.error(e);
+}
