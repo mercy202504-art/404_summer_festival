@@ -282,3 +282,21 @@ memoryInput.addEventListener(
 
 updateCharacterCount();
 renderRecords();
+
+async function testInsert() {
+  const { data, error } = await supabaseClient
+    .from("secret_board")
+    .insert([
+      {
+        name: "テスト",
+        message: "接続確認"
+      }
+    ]);
+
+  if (error) {
+    console.error(error);
+  } else {
+    console.log("Insert OK");
+  }
+}
+testInsert();
