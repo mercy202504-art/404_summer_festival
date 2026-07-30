@@ -35,12 +35,11 @@ supabaseClient
       console.error("Connection log error:", error);
     }
   });
-  
-sessionStorage.setItem("connectionNumber", formattedCount);
 
     const formattedCount = String(data).padStart(6, "0");
     countElement.textContent = formattedCount;
-
+    sessionStorage.setItem("connectionNumber", formattedCount);
+    
     console.log("Connection record:", formattedCount);
   } catch (error) {
     console.error(
