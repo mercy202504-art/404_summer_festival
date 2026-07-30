@@ -299,4 +299,3 @@ async function testInsert() {
     console.log("Insert OK");
   }
 }
-testInsert();
