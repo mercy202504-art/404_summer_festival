@@ -40,7 +40,10 @@ supabaseClient
 
     console.log("Connection record:", formattedCount);
   } catch (error) {
-    console.error("接続記録の更新に失敗しました:", error);
+    console.error(
+  "接続記録の更新に失敗しました:",
+  JSON.stringify(error, null, 2)
+);
     countElement.textContent = "------";
   }
 }
