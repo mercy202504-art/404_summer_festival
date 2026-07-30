@@ -228,7 +228,31 @@ async function submitRecord() {
     await playLanternAnimation();
 
     records.push(newRecord);
-    saveRecords(records);
+
+const { error } = await supabaseClient
+  .from("secret_board")
+  .insert([
+    {
+      name: name,
+      message: memory
+    }
+  ]);
+
+if (error) {
+  console.error("Supabaseへの投稿に失敗しました:", error);
+
+  showStatus(
+    "記録の送信に失敗しました。もう一度お試しください。",
+    "error"
+  );
+
+  postButton.disabled = false;
+  postButton.textContent = "記録を送信する";
+  return;
+}
+
+// 今は画面表示維持のため一時的にlocalStorageにも保存
+saveRecords(records);
 
     memoryInput.value = "";
     nameInput.value = "";
@@ -282,20 +306,3 @@ memoryInput.addEventListener(
 
 updateCharacterCount();
 renderRecords();
-
-async function testInsert() {
-  const { data, error } = await supabaseClient
-    .from("secret_board")
-    .insert([
-      {
-        name: "テスト",
-        message: "接続確認"
-      }
-    ]);
-
-  if (error) {
-    console.error(error);
-  } else {
-    console.log("Insert OK");
-  }
-}
