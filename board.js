@@ -61,12 +61,12 @@ function createRecordCard(record) {
 
     const date = document.createElement("time");
     date.className = "memory-record-date";
-    date.dateTime = record.createdAt;
-    date.textContent = formatDate(record.createdAt);
+    date.dateTime = record.created_at ?? record.createdAt;
+date.textContent = formatDate(record.created_at ?? record.createdAt);
 
     const text = document.createElement("p");
     text.className = "memory-record-text";
-    text.textContent = record.memory;
+    text.textContent = record.message ?? record.memory;
 
     const code = document.createElement("p");
     code.className = "memory-record-code";
@@ -255,7 +255,7 @@ saveRecords(records);
     nameInput.value = "";
 
     updateCharacterCount();
-    renderRecords();
+    await renderRecords();
 
     showStatus(
         `記録 404-${String(serial).padStart(4, "0")} を受信しました。`,
