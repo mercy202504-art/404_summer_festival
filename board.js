@@ -113,7 +113,6 @@ async function renderRecords() {
         ...record,
         serial: Number(record.serial) || index + 1
     }))
-    .reverse()
     .forEach(record => {
         board.appendChild(
             createRecordCard(record)
