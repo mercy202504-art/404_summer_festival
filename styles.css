@@ -2413,3 +2413,19 @@ body.archive-body {
     color:rgba(180,235,255,.9);
     text-align:right;
 }
+
+/* 奉納カードを確実に表示する */
+#memory-card.memory-card-show {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0) scale(1) !important;
+  filter: none !important;
+}
+
+/* 照合終了後はオーバーレイを確実に隠す */
+#scan-overlay:not(.scan-overlay-show) {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
