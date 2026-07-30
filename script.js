@@ -101,15 +101,31 @@ setTimeout(() => {
   }
 }, 700);
 
-  if (image) {
-    image.src = card.image;
-    image.alt = card.title;
+ if (image) {
+  // 前回の画像エラー状態をリセット
+  image.style.display = "block";
+  image.parentElement.classList.remove("image-missing");
 
-    image.onerror = () => {
-      image.style.display = "none";
-      image.parentElement.classList.add("image-missing");
-    };
+  image.onload = () => {
+    image.style.display = "block";
+    image.parentElement.classList.remove("image-missing");
+  };
+
+  image.onerror = () => {
+    console.error("画像を読み込めませんでした:", card.image);
+    image.style.display = "none";
+    image.parentElement.classList.add("image-missing");
+  };
+
+  if (card.image) {
+    image.alt = card.title;
+    image.src = card.image;
+  } else {
+    console.error("画像パスが空です:", card);
+    image.style.display = "none";
+    image.parentElement.classList.add("image-missing");
   }
+}
 
   if (number) {
     number.innerText = `NO.${card.no}`;
