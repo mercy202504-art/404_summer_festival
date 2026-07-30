@@ -11,22 +11,19 @@ const memoryCount = document.getElementById("memory-count");
 const boardCount = document.getElementById("board-count");
 
 
-function loadRecords() {
-    try {
-        const saved = localStorage.getItem(STORAGE_KEY);
+async function loadRecords() {
+  const { data, error } = await supabaseClient
+    .from("secret_board")
+    .select("*")
+    .order("created_at", { ascending: false })
+    .limit(100);
 
-        if (!saved) {
-            return [];
-        }
+  if (error) {
+    console.error("記録の取得に失敗:", error);
+    return [];
+  }
 
-        const records = JSON.parse(saved);
-
-        return Array.isArray(records) ? records : [];
-
-    } catch (error) {
-        console.error("記録の読み込みに失敗しました。", error);
-        return [];
-    }
+  return data || [];
 }
 
 
@@ -92,8 +89,8 @@ code.textContent =
 }
 
 
-function renderRecords() {
-    const records = loadRecords();
+async function renderRecords() {
+    const records = await loadRecords();
 
     board.replaceChildren();
 
