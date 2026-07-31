@@ -199,7 +199,7 @@ async function submitRecord() {
         nameInput.value.trim() ||
         "匿名の観測者";
 
-    const records = loadRecords();
+    const records = await loadRecords();
     const serial = getNextSerial(records);
 
     const newRecord = {
@@ -276,7 +276,7 @@ saveRecords(records);
         });
     }
 }
-
++
 memoryInput.addEventListener(
     "input",
     updateCharacterCount
@@ -302,3 +302,21 @@ memoryInput.addEventListener(
 
 updateCharacterCount();
 renderRecords();
+
+const boardChannel = supabaseClient
+  .channel("secret-board-live")
+  .on(
+    "postgres_changes",
+    {
+      event: "INSERT",
+      schema: "public",
+      table: "secret_board"
+    },
+    async payload => {
+      console.log("新しい灯籠を受信:", payload.new);
+      await renderRecords();
+    }
+  )
+  .subscribe(status => {
+    console.log("Realtime status:", status);
+  });
